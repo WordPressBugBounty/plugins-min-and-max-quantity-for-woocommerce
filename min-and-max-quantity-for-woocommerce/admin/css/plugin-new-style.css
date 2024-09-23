@@ -1,0 +1,98 @@
+body{background-color: #F2F2F3}
+#wpfooter p#footer-left{float: none;text-align: center;}
+/* header new design */
+header.dots-header{background-color:#fff;border-radius:5px;box-shadow:0 4px 10px rgb(0 0 0 / 8%);margin:10px 0 30px;}
+.dots-plugin-details{border-bottom:1px solid rgb(112 112 112 / 20%);padding:10px 20px;}
+.dots-plugin-details .dots-header-left{align-items:center;}
+.dots-logo-main img{width:38px;}
+.dots-plugin-details .dots-header-left .plugin-name{margin:0 10px;}
+.dots-plugin-details .dots-header-left .plugin-name .title{font-size:18px;line-height:24px;font-weight:500;margin:0;}
+.dots-logo-main{margin:0;background-color:transparent;box-shadow:none;}
+.dots-plugin-details .version-label{font-size:18px;line-height:24px;font-weight:500;color:#939393;border:1px solid #E2E4E7;border-radius:4px;position:relative;padding:8px 10px 8px 30px;text-transform:uppercase;margin-right:9px;}
+.dots-plugin-details .version-label::before{content:"";position:absolute;top:13px;left:10px;display:inline-block;width:14px;height:13px;background-image:url('../images/pro-plugin-icon.svg');}
+.dots-plugin-details .version-number{font-size:13px;line-height:18px;font-weight:400;color:#BABDC3;}
+.dots-menu-main{background-color:transparent;padding:0 10px}
+.dots-menu-main ul li a{font-size:14px;line-height:19px;font-weight:400;padding:11px 0;border-bottom:2px solid transparent;margin:0 14px;}
+#dotsstoremain a:focus{outline:none;box-shadow:none;}
+.dots-menu-main ul li:hover > a,.dots-menu-main ul li a.active{color:#000;background:transparent;border-bottom-color:#FF826E;}
+.dots-menu-main ul li ul.sub-menu{box-shadow:0 4px 10px 4px rgb(0 0 0 / 8%);}
+.dots-menu-main ul li ul.sub-menu li{background-color:#fff;}
+#dotsstoremain .button-dots{margin-right:0;}
+.dots-header .button-dots a{font-size:16px;line-height:21px;font-weight:400;color:#FF826E;text-decoration:none;position:relative;margin-right:12px;padding-right:14px;}
+.dots-header .button-dots a::after{content:"|";position:absolute;display:inline-block;font-size:16px;line-height:20px;font-weight:400;color:#FF826E;top:0;right:0;}
+.dots-header .button-dots:last-child a{padding-right:0;margin-right:0;}
+.dots-header .button-dots:last-child a::after{display:none;}
+
+/* Rule listing new design */
+.dots-settings-inner-main .wp-list-table{border:none;box-shadow:0 4px 10px rgb(0 0 0 / 8%);margin:20px 0;border-radius:5px;}
+.dots-settings-inner-main .wp-list-table a{font-size:14px;line-height:19px;font-weight:400;color:#000;}
+.dots-settings-inner-main .wp-list-table strong a{font-weight:500;}
+.dots-settings-inner-main .wp-list-table .row-actions a{font-size:11px;line-height:23px;font-weight:400;}
+.dots-settings-inner-main .wp-list-table th a{padding:13px 8px;}
+.dots-settings-inner-main .wp-list-table .row-actions .delete a{color:#EF0000;}
+.dots-settings-inner-main .striped>tbody>:nth-child(odd),.dots-settings-inner-main ul.striped>:nth-child(odd){background-color:#F5F5F5;}
+.dots-settings-inner-main .form-table th{width:250px;}
+.dots-settings-inner-main .res-cl:not(.mmqw-add-rule-page){box-shadow:0 4px 10px rgb(0 0 0 / 8%);}
+.dots-settings-inner-main .subsubsub{display:inline-block;width:100%;margin:20px 0 14px;border-top:1px solid rgb(112 112 112 / 20%);padding:20px 0 0;}
+.dots-settings-inner-main .subsubsub li{margin-right:4px;}
+.dots-settings-inner-main .subsubsub a{font-size:14px;line-height:19px;font-weight:400;color:#FF826E;}
+.dots-settings-inner-main .subsubsub a.current{color:#000;font-weight:600;}
+.dots-settings-inner-main .mmqw-btn-with-brand-color{border:1px solid #FF826E;border-radius:5px;background-color:#FFFFFF;color:#FF826E;}
+.dots-settings-inner-main .mmqw-btn-with-brand-color:hover,.dots-settings-inner-main .mmqw-btn-with-brand-color:focus{border:1px solid #FF826E;background-color:#FFFFFF;box-shadow:none;color:#FF826E;}
+.dots-settings-inner-main .button{background-color:#F7F7F7;border:1px solid #4E5662;border-radius:5px;font-size:13px;line-height:7px;font-weight:500;padding:5px 10px 6px;color:#2C3338;}
+.dots-settings-inner-main .button:hover{border:1px solid #4E5662;background-color:#F7F7F7;box-shadow:none;color:#2C3338;}
+.dots-settings-inner-main .button-primary,.dots-settings-inner-main .button-primary:hover,.dots-settings-inner-main .button-primary:focus{background-color:#FF826E;border:1px solid #FF826E;color:#fff;box-shadow:none;}
+.dots-settings-inner-main #mmqw-delete-group{background-color:#EF0000;border-color:#EF0000;}
+
+/* Plugin submenu items design */
+.dotstore-submenu-items{display:inline-block;width:100%;margin:0 0 18px;}
+.dotstore-submenu-items ul{display:flex;flex-wrap:wrap;align-items:center;padding:0;margin:0;}
+.dotstore-submenu-items ul li{position:relative;display:inline-block;padding-right:10px;margin-right:8px;}
+.dotstore-submenu-items ul li::before{content:"|";position:absolute;display:inline-block;font-size:16px;line-height:16px;font-weight:400;color:#8C8F94;top:0;right:0;}
+.dotstore-submenu-items ul li:last-child::before{display:none;}
+.dotstore-submenu-items ul li a{font-size:14px;line-height:19px;font-weight:400;color:#000;text-decoration:none;}
+.dotstore-submenu-items ul li a.active{color:#FF826E;font-weight:600;}
+
+/* Plugin tables new design */
+.mmqw-main-table > h2{font-size:18px;line-height:24px;font-weight:500;background-color:#fff;padding:15px 30px;border:none;border-radius:5px 5px 0 0;}
+.mmqw-main-table table.table-outer tr:last-child{border:none;}
+.mmqw-main-table table.table-outer tr td.fr-1{font-weight:400;width:34%;border:none;}
+.mmqw-main-table table.min-max-manage-msg-table tr td.fr-1{width:37%;}
+.mmqw-main-table table.table-outer tr td.fr-2{border:none;}
+.mmqw-main-table table.table-outer tr th,.mmqw-main-table table.table-outer tr td{font-size:14px;line-height:19px;font-weight:400;padding:15px 30px;}
+.mmqw-main-table table.table-outer tr td.fr-2 a,.mmqw-main-table table.table-outer tr td.fr-2 a:hover{color:#FF826E;}
+#dotsstoremain th.titledesc, .mmqw-main-table table.table-outer tr td{border:none;}
+.mmqw-main-table table.table-outer tr:nth-child(odd){background-color:#f5f5f5;}
+.mmqw-main-table table.table-outer tr:nth-child(even){background-color:#fff;}
+.dots-settings-inner-main .mmqw-main-table.mmqw-get-started-table{box-shadow:0 0 10px rgb(0 0 0 / 8%);}
+
+@media screen and (max-width:991px){
+	header.dots-header{margin:10px 0 24px;}
+	.dots-plugin-details{padding:8px 12px;}
+	.dots-plugin-details .version-label{padding:6px 8px 6px 30px;font-size:15px;line-height:21px;}
+	.dots-plugin-details .version-label::before{top:10px;}
+	.dots-plugin-details .dots-header-left .plugin-name .title{font-size:16px;line-height:22px;}
+	.dots-header .button-dots a{font-size:14px;line-height:19px;margin-right:8px;padding-right:11px;}
+	.dots-header .button-dots a::after{line-height:17px;}
+	.dots-menu-main{padding: 0 5px;}
+	.dots-menu-main ul li a{font-size:13px;line-height:18px;padding:10px 0;margin:0 10px;}
+	.mmqw-main-table h1{font-size:20px;line-height:normal;}
+	.dots-settings-inner-main .subsubsub{padding:16px 0 0;margin:16px 0 12px;}
+	.dotstore-submenu-items ul li a{font-size:13px;line-height:18px;}
+	.mmqw-main-table > h2{padding:12px 18px;font-size:16px;line-height:22px;}
+	.mmqw-main-table table.table-outer tr th,.mmqw-main-table table.table-outer tr td{padding:12px 18px;}
+}
+@media screen and (max-width:782px){
+	.dots-settings-inner-main .form-table th,.mmqw-rules-group-main td.select_condition_for_in_notin,.mmqw-rules-group-main tr td.condition-value,.mmqw-rules-group-main tr td.delete-td-row,.mmqw-rules-group-main .mmqw-actions-section tr td{width:100%;}
+	.mmqw-main-table:not(.mmqw-quick-info-table) table.table-outer tr td.fr-1{width:100%;}
+	.min-max-option-table .num-class{float:none;}
+	.dots-settings-inner-main .subsubsub{text-align:left;}
+	.dots-settings-inner-main .wp-list-table{margin:10px 0;}
+	.dots-settings-inner-main .tablenav .tablenav-pages{margin:0 0 15px;}
+}
+@media screen and (max-width:767px){
+	.dots-plugin-details{padding:0;}
+	.dots-menu-main{padding: 0 2px;}
+	.dots-plugin-details .dots-header-left{justify-content:flex-start;padding:8px 12px;border-bottom:1px solid #E2E4E7;}
+	.dots-plugin-details .dots-header-right{float:none;justify-content:flex-start;padding:10px 12px;}
+}

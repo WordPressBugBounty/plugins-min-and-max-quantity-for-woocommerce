@@ -1,0 +1,767 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimum and Maximum Quantity for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://www.multidots.com/contact/\n"
+"POT-Creation-Date: 2022-10-12 10:04+0000\n"
+"PO-Revision-Date: 2023-03-28 04:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8.1\n"
+"X-Domain: woo-shipping-display-mode\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html;esc_attr_e;esc_attr;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/partials/mmqw-information-page.php:38
+msgid " to view license and terms of use."
+msgstr ""
+
+#. translators: Number of days
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:114
+msgid "%s days"
+msgstr ""
+
+#. translators: Number of hours
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:123
+msgid "%s hours"
+msgstr ""
+
+#. translators: Number of minutes
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:132
+msgid "%s minutes"
+msgstr ""
+
+#. translators: Number of seconds
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:141
+msgid "%s seconds"
+msgstr ""
+
+#. translators: Number of weeks
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:105
+msgid "%s weeks"
+msgstr ""
+
+#. translators: 1. Name
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:273
+msgid "%s WordPress Plugin"
+msgstr ""
+
+#. translators: Number of years
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:96
+msgid "%s years"
+msgstr ""
+
+#: admin/partials/mmqw-add-new-rule-page.php:357
+msgid "+ Add Group"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1008
+#: admin/partials/mmqw-add-new-rule-page.php:142
+#: admin/partials/mmqw-add-new-rule-page.php:274
+msgid "+ Add Rule"
+msgstr ""
+
+#: admin/partials/mmqw-get-started-page.php:53
+msgid ""
+"<strong>Important Note: </strong>This plugin override the rules if you "
+"created twice or more than that and consider the last rules Min Max value "
+"from the rules order."
+msgstr ""
+
+#: min-and-max-quantity-for-woocommerce.php:173
+msgid ""
+"<strong>Minimum and Maximum Quantity for WooCommerce is successfully "
+"installed and ready to go.</strong>"
+msgstr ""
+
+#: admin/partials/mmqw-get-started-page.php:23
+msgid ""
+"<strong>Step 1: </strong>Add the value in the below textbox as per your "
+"requirement and add the 999999 in the max value for unlimited value."
+msgstr ""
+
+#: admin/partials/mmqw-get-started-page.php:33
+msgid ""
+"<strong>Step 2: </strong>Add the global messages for your cart once any "
+"requirement does not match."
+msgstr ""
+
+#: admin/partials/mmqw-get-started-page.php:43
+msgid ""
+"<strong>Step 3: </strong>Add the Min Max rules with title based on your  "
+"business requirement."
+msgstr ""
+
+#: admin/partials/mmqw-get-started-page.php:60
+msgid ""
+"<strong>Tokens for the messages: </strong>{MIN_ORDER_QTY}, {ORDER_QTY}, "
+"{MAX_ORDER_QTY}, {MIN_CART_VALUE}, {CART_VALUE}, {MIN_ORDER_ITEM}, "
+"{MAX_ORDER_ITEM}"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:116
+msgid "a day"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:134
+msgid "a minute"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:143
+msgid "a second"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:107
+msgid "a week"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:98
+msgid "a year"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:109
+msgid "About"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1056
+#: admin/partials/mmqw-add-new-rule-page.php:223
+#: admin/partials/mmqw-add-new-rule-page.php:328
+msgid "Action"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:129
+msgid "Add maximum items quantity to add on order page. eg., 10."
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:77
+msgid "Add maximum order quantity to add on order page. eg., 10."
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:103
+msgid "Add maximum order value to add on order page. eg., 10."
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:119
+msgid "Add minimum items quantity to add on order page. eg., 10."
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:67
+msgid "Add minimum order quantity to add on order page. eg., 10."
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:93
+msgid "Add minimum order value to add on order page. eg., 10."
+msgstr ""
+
+#: admin/partials/mmqw-list-rules-page.php:257
+msgid "Add New"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:85
+msgid "Add the maximum allows order quantity message for the cart page."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:139
+msgid "Add the maximum order item message for the cart page."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:112
+msgid "Add the maximum order value message for the cart page."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:75
+msgid "Add the minimum allows order quantity message for the cart page."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:129
+msgid "Add the minimum order item message for the cart page."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:102
+msgid "Add the minimum order value message for the cart page."
+msgstr ""
+
+#: admin/partials/mmqw-add-new-rule-page.php:100
+msgid "Advanced Rules"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:125
+msgid "an hour"
+msgstr ""
+
+#. translators: 1. Name
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:277
+msgid "Are you enjoying %s Plugin?"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:54
+msgid "Checkout Settings"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:38
+msgid "Click here"
+msgstr ""
+
+#: min-and-max-quantity-for-woocommerce.php:180
+msgid ""
+"Click on settings button and create your minimum and maximum quantity rules."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1006
+#: admin/partials/mmqw-add-new-rule-page.php:140
+#: admin/partials/mmqw-add-new-rule-page.php:272
+msgid "Conditions"
+msgstr ""
+
+#: admin/partials/mmqw-add-new-rule-page.php:65
+msgid "Configuration"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:67
+msgid "Contact"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:197
+msgid "Country"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:51
+msgid "Danish, German, French, Spain"
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:37
+msgid "Date"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:203
+#: admin/list-tables/class-min-max-rule-list-table.php:341
+#: admin/list-tables/class-min-max-rule-list-table.php:406
+#: admin/partials/mmqw-add-new-rule-page.php:358
+msgid "Delete"
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:404
+msgid "Disable"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:229
+msgid "DotStore Plugins"
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:342
+msgid "Duplicate"
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:340
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:70
+#: admin/partials/mmqw-checkout-settings-page.php:80
+#: admin/partials/mmqw-checkout-settings-page.php:96
+#: admin/partials/mmqw-checkout-settings-page.php:106
+#: admin/partials/mmqw-checkout-settings-page.php:122
+#: admin/partials/mmqw-checkout-settings-page.php:132
+msgid "eg. 10"
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:405
+msgid "Enable"
+msgstr ""
+
+#: admin/partials/mmqw-add-new-rule-page.php:75
+msgid ""
+"Enable or Disable this Min Max rule using this button (This rule only apply "
+"if it is enabled)."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:213
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1034
+#: admin/partials/mmqw-add-new-rule-page.php:183
+#: admin/partials/mmqw-add-new-rule-page.php:303
+msgid "Equal to ( = )"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:739
+msgid "Error saving Min/Max Quantity rule."
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:356
+#: admin/list-tables/class-min-max-rule-list-table.php:387
+msgid "Everywhere"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:20
+#: admin/partials/header/plugin-header.php:23
+msgid "Free"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:12
+#: admin/partials/mmqw-information-page.php:15
+msgid "Free Version"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:107
+msgid "General"
+msgstr ""
+
+#: admin/partials/mmqw-get-started-page.php:10
+msgid "Getting Started"
+msgstr ""
+
+#: admin/partials/mmqw-get-started-page.php:17
+msgid ""
+"Go to <strong>Settings > General</strong> to Add the Min Max global settings "
+"value as per your business need."
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:64
+msgid "Help"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:41
+msgid "Help & Support"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:33
+msgid "Installed Version"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:287
+msgid "Leave a Review"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:37
+msgid "License & Terms of use"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:270
+msgid "List Per Page"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:50
+msgid "Localization"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:207
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1027
+#: admin/partials/mmqw-add-new-rule-page.php:176
+#: admin/partials/mmqw-add-new-rule-page.php:296
+msgid "Location Specific"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:62
+msgid "Manage Messages"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:94
+msgid "Manage Rules"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:127
+msgid "Max Order Item"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:137
+msgid "Max order item exceeded message"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:75
+msgid "Max Order QTY"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:83
+msgid "Max order quantity exceeded message"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:101
+msgid "Max Order Value"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:110
+msgid "Max order value exceeded message"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:199
+msgid "Max quantity"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:204
+msgid "Max quantity should be greater or equal to min quantity."
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:108
+msgid "Messages"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:117
+msgid "Min Order Item"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:127
+msgid "Min order item not reached message"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:65
+msgid "Min Order QTY"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:73
+msgid "Min Order quantity not reached message"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:91
+msgid "Min Order Value"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:100
+msgid "Min order value not reached message"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:198
+msgid "Min quantity"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:111
+msgid "Min/Max Order Item"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:59
+msgid "Min/Max Order QTY"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:85
+msgid "Min/Max Order Value"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:377
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:378
+msgid "Min/Max Quantity Rules"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:933
+msgid "Min/max rule has been created."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:937
+msgid "Min/max rule has been deleted."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:941
+msgid "Min/max rule has been disabled."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:939
+msgid "Min/max rule has been duplicated."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:943
+msgid "Min/max rule has been enabled."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:935
+msgid "Min/max rule has been updated."
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:35
+#: admin/partials/mmqw-add-new-rule-page.php:86
+msgid "Min/Max Rule Title"
+msgstr ""
+
+#: admin/partials/mmqw-list-rules-page.php:256
+msgid "Min/Max Rules"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:318
+msgid "Minimum and Maximum Quantity for WooCommerce"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:74
+msgid "My Account"
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:250
+msgid "No min/max rule found."
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:289
+msgid "No thanks / I already have"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:214
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1035
+#: admin/partials/mmqw-add-new-rule-page.php:184
+#: admin/partials/mmqw-add-new-rule-page.php:304
+msgid "Not Equal to ( != )"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:121
+msgid "Order item rules message"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:67
+msgid "Order quantity rules message"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:205
+msgid "Order saved successfully"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:94
+msgid "Order value rules message"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:200
+msgid "Please enter 3 or more characters"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:206
+msgid "Please fill some required fields in the Advanced Rules section."
+msgstr ""
+
+#. translators: %s: Number of posts.
+#: admin/list-tables/class-min-max-rule-list-table.php:154
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/partials/header/plugin-header.php:18
+msgid "Pro"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:10
+msgid "Pro Version"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:29
+msgid "Product Name"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:208
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1022
+#: admin/partials/mmqw-add-new-rule-page.php:171
+#: admin/partials/mmqw-add-new-rule-page.php:291
+msgid "Product Specific"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:25
+msgid "Product Type"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:211
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1025
+#: admin/partials/mmqw-add-new-rule-page.php:174
+#: admin/partials/mmqw-add-new-rule-page.php:294
+msgid "Qty on Category"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:212
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1028
+#: admin/partials/mmqw-add-new-rule-page.php:177
+#: admin/partials/mmqw-add-new-rule-page.php:297
+msgid "Qty on Country"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:209
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1023
+#: admin/partials/mmqw-add-new-rule-page.php:172
+#: admin/partials/mmqw-add-new-rule-page.php:292
+msgid "Qty on Product"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:210
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1024
+#: admin/partials/mmqw-add-new-rule-page.php:173
+#: admin/partials/mmqw-add-new-rule-page.php:293
+msgid "Qty on Variable Product"
+msgstr ""
+
+#: public/class-mmqw-for-woocommerce-public.php:102
+msgid "Quantity: "
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:110
+#: admin/partials/mmqw-information-page.php:21
+msgid "Quick info"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:44
+msgid "Quick Start"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:845
+msgid "Rule status changed successfully."
+msgstr ""
+
+#: admin/partials/mmqw-add-new-rule-page.php:92
+msgid "Rule title"
+msgstr ""
+
+#: admin/partials/mmqw-add-new-rule-page.php:58
+#: admin/partials/mmqw-checkout-settings-page.php:34
+#: admin/partials/mmqw-manage-message-page.php:37
+msgid "Save changes"
+msgstr ""
+
+#: admin/partials/mmqw-list-rules-page.php:258
+msgid "Save Order"
+msgstr ""
+
+#: admin/partials/mmqw-list-rules-page.php:266
+msgid "Search Min/Max Rule"
+msgstr ""
+
+#: admin/partials/mmqw-list-rules-page.php:264
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:202
+msgid "Select Category"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:201
+msgid "Select some options"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:97
+#: includes/class-mmqw-for-woocommerce.php:316
+#: min-and-max-quantity-for-woocommerce.php:193
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/mmqw-checkout-settings-page.php:47
+#: admin/partials/mmqw-manage-message-page.php:56
+msgid "Settings saved successfully."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:821
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:847
+msgid "Something went wrong"
+msgstr ""
+
+#: public/class-mmqw-for-woocommerce-public.php:870
+msgid "Sorry! you reached maximum limit for this product!"
+msgstr ""
+
+#: admin/list-tables/class-min-max-rule-list-table.php:36
+#: admin/partials/mmqw-add-new-rule-page.php:74
+msgid "Status"
+msgstr ""
+
+#: includes/class-mmqw-for-woocommerce.php:317
+msgid "Support"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:45
+msgid "Support Forum"
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:88
+#: public/class-mmqw-for-woocommerce-public.php:601
+#: public/class-mmqw-for-woocommerce-public.php:886
+msgid ""
+"The maximum allows order quantity is {MAX_ORDER_QTY} and you have {ORDER_QTY}"
+" in your cart."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:115
+#: public/class-mmqw-for-woocommerce-public.php:604
+msgid ""
+"The maximum cart value required is {MAX_CART_VALUE} and you have {CART_VALUE}"
+" in your cart."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:142
+#: public/class-mmqw-for-woocommerce-public.php:607
+msgid ""
+"The maximum order item should be {MAX_ORDER_ITEM} for each product in your "
+"cart."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:78
+#: public/class-mmqw-for-woocommerce-public.php:600
+#: public/class-mmqw-for-woocommerce-public.php:885
+msgid ""
+"The minimum allows order quantity is {MIN_ORDER_QTY} and you have {ORDER_QTY}"
+" in your cart."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:105
+#: public/class-mmqw-for-woocommerce-public.php:603
+msgid ""
+"The minimum cart value required is {MIN_CART_VALUE} and you have {CART_VALUE}"
+" in your cart."
+msgstr ""
+
+#: admin/partials/mmqw-manage-message-page.php:132
+#: public/class-mmqw-for-woocommerce-public.php:606
+msgid ""
+"The minimum order item required is {MIN_ORDER_ITEM} for each product in your "
+"cart."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:946
+msgid "There was an error with saving data."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:948
+msgid "There was an error with security check."
+msgstr ""
+
+#: admin/partials/mmqw-add-new-rule-page.php:89
+msgid "This name will use only for admin purpose."
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:78
+#: admin/partials/header/plugin-header.php:83
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1013
+#: admin/partials/mmqw-add-new-rule-page.php:147
+#: admin/partials/mmqw-add-new-rule-page.php:279
+msgid "View Documentation"
+msgstr ""
+
+#: admin/partials/mmqw-information-page.php:26
+msgid "WooCommerce Plugin"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1069
+#: admin/partials/mmqw-add-new-rule-page.php:236
+#: admin/partials/mmqw-add-new-rule-page.php:341
+msgid ""
+"You can set a maximum product quantity to apply on product detail page and "
+"cart page."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1065
+#: admin/partials/mmqw-add-new-rule-page.php:232
+#: admin/partials/mmqw-add-new-rule-page.php:337
+msgid ""
+"You can set a minimum product quantity to apply on product detail page and "
+"cart page."
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:996
+#: admin/partials/mmqw-add-new-rule-page.php:130
+#: admin/partials/mmqw-add-new-rule-page.php:262
+msgid ""
+"You can turn off this button, if you do not need to apply this group's min "
+"max rules."
+msgstr ""
+
+#. translators: 1. Name, 2. Time
+#: includes/class-mmqw-for-woocommerce-user-feedback.php:280
+msgid ""
+"You have been using %1$s for %2$s now. Mind leaving a review to let us know "
+"what you think? We'd really appreciate it!"
+msgstr ""
