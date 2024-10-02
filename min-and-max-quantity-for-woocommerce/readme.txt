@@ -1,12 +1,14 @@
 === Minimum and Maximum Quantity for WooCommerce ===
 Contributors: dots
+Author: Thedotstore
+Author URI: https://www.thedotstore.com/
 Donate link: https://www.thedotstore.com/
 Tags: Minimum quantity, Maximum quantity, Products quantity, Quantity limit, WooCommrce quantity
 Requires PHP: 7.2
 Requires at least: 5.0
-Tested up to: 6.5.2
-WC tested up to: 8.7.0
-Stable tag: 1.1.2
+Tested up to: 6.6.2
+WC tested up to: 9.3.3
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,94 +17,111 @@ Allow you to set a minimum or maximum purchase quantity for the WooCommerce stor
 
 == Description ==
 
-It allows you to define the minimum and maximum allowable product quantities per product, category and country. 
+Looking for a way to efficiently manage product quantity restrictions in your WooCommerce store? The <a href ="https://bit.ly/3zTcMv7" target="_blank">Minimum and Maximum Quantity For WooCommerce</a> Plugin provides you with complete control over product quantity limits, ensuring smoother operations and a better customer experience.
 
-You can set min and max checkout for order quantity, order value and order item.
+This easy-to-configure plugin allows you to set <strong>minimum and maximum quantity rules for products, categories, or even more</strong>. No more manual monitoring of order quantities — <strong>automate your store’s limits</strong> and focus on growing your business instead.
 
-Plugin Demo : <a href ="https://pluginsdemo.thedotstore.com/min-and-max-quantity-for-woocommerce/" target="_blank">View Demo</a>
+With the <a href ="https://bit.ly/3zTcMv7" target="_blank">Minimum and Maximum Quantity</a> Plugin, you get:
 
-== 💁 KEY FEATURES: ==
+- Full control over product quantity limits
+- Customizable rules for products, users, and carts
+- Easy setup and user-friendly interface
+- Fast and reliable customer support
+
+[youtube https://www.youtube.com/watch?v=a-OTrGK1wAM]
+
+<strong>Plugin Demo:</strong> <a href ="https://pluginsdemo.thedotstore.com/min-and-max-quantity-for-woocommerce/" target="_blank">View Demo</a>
+
+
+== 📒 KEY FEATURES ==
 <ul>
-<li>Easy to create quantity rules for orders, products, category, country.</li>
-<li><strong>Enable/disable</strong> add to cart quantity validation and correction.</li>
-<li>Set the product default quantity for all your store products.</li>
-<li><strong>Manage</strong> Minimum and Maximum Quantity Rules</li>
-<li><strong>Clone</strong> Minimum and Maximum Quantity Rules</li>
+<li>Set minimum and maximum quantity rules for products.</li>
+<li>Customize minimum and maximum quantity for each product.</li>
+<li>Apply quantity limits to variable products and product categories.</li>
+<li>Set quantity rules based on the customer’s country.</li>
+<li>Display validation messages if the maximum quantity limit is reached.</li>
+<li>Set minimum and maximum order values to allow checkout.</li>
+<li>Define minimum and maximum order quantities for checkout.</li>
+<li>Set a limit on the number of items required to proceed with checkout.</li>
+<li>Display custom messages and block checkout if global cart rules aren't met.</li>
 </ul>
 
-== 👉 PRODUCTS QUANTITY ==
+== 🚀 PLUGIN USE CASES ==
+
+<ol>
+<li><strong>Limit High-Demand Product Quantities:</strong> Prevent stock shortages by controlling how many units customers can buy for popular products.</li>
+<li><strong>Category-Level Quantity Limits:</strong> Manage sales and stock more effectively by applying limits to specific product categories.</li>
+<li><strong>Set Minimum Order Quantities:</strong> Encourage larger purchases by enforcing minimum quantity limits, increasing average order value.</li>
+<li><strong>Order Value Restrictions:</strong> Control minimum and maximum cart values, preventing orders that are too small or large to process efficiently.</li>
+</ol>
+
+== 👀 WHAT MAKES US STAND OUT ==
+
+What sets us apart at Dotstore is not just our commitment to solving practical eCommerce challenges, but also our dedication to outstanding support and performance optimization.
 
 <ul>
-<li>Set minimum product order quantities (cart total minimum quantity or per item minimum quantity).</li>
-<li>Set maximum product order quantities (cart total maximum quantity or per item maximum quantity).</li>
+<li><strong>Tailored Solutions:</strong> We offer plugins that adapt to a range of business models, from retail to memberships.</li>
+<li><strong>User-Centric Design:</strong> Our approach focuses on intuitive interfaces that don't sacrifice power or flexibility.</li>
+<li><strong>Robust Support:</strong> Our customer support is lauded for its responsiveness and effectiveness, ensuring you're never alone with your queries.</li>
+<li><strong>Quality and Integrity:</strong> Every line of code is written with precision and integrity, promising plugins that perform seamlessly.</li>
 </ul>
 
-== 👉 VARIABLE PRODUCT QUANTITY ==
+== 📣 PREMIUM: Minimum and Maximum Quantity for WooCommerce —  <a href ="https://bit.ly/3zTcMv7" target="_blank">Try Pro Version Today!</a> ==
+
+== ✅ NEED EVEN MORE FEATURES? ==
+
+Upgrade to <a href ="https://bit.ly/3zTcMv7" target="_blank">Minimum and Maximum Quantity Plugin PRO</a> to get all the advanced features.
+
 <ul>
-<li>Set minimum variable product order quantities (cart total minimum quantity or per item minimum quantity).</li>
-<li>Set maximum variable product order quantities (cart total maximum quantity or per item maximum quantity).</li>
+<li>Includes all free plugin features.</li>
+<li>Set default and step quantities for all store products.</li>
+<li>Customize the quantity selector (radio button, dropdown, or default input).</li>
+<li>Apply conditional rules based on product, user, cart, and time limits.</li>
+<li>Advanced product rules based on total sales, price, stock, product age, attributes, and best sellers.</li>
+<li>Create user-specific rules for individual users or roles.</li>
+<li>Cart rules based on shipping methods, zones, and applied coupons.</li>
+<li>Time-sensitive rules with specific start and end times for quantity restrictions.</li>
+<li>Choose between ‘Any’ or ‘All’ conditions for rule matching.</li>
+<li>Display applied rules on individual product pages and customize headline text/position.</li>
+<li>Show global rules on the cart page to inform customers.</li>
+<li>Hide the checkout button when conditions aren’t met.</li>
+<li>Exclude specific products from global checkout rules.</li>
 </ul>
 
-== 👉 CATEGORY QUANTITY ==
+== 📣 LEARN MORE: Minimum and Maximum Quantity Plugin — <a href ="https://bit.ly/3zTcMv7" target="_blank">Try Pro Version Today!</a> == 
+
+== ☎️ CONTACT US ==
+
 <ul>
-<li>Set minimum category order quantities (cart total minimum quantity or per item minimum quantity).</li>
-<li>Set maximum category order quantities (cart total maximum quantity or per item maximum quantity).</li>
+<li><strong>Free plugin:</strong> Need Technical Help? - <a href ="https://wordpress.org/support/plugin/min-and-max-quantity-for-woocommerce/" target="_blank">Click here</a></a>
+
+<li><strong>Pro Plugin:</strong>  PRE-SALE Questions - <a href ="https://www.thedotstore.com/support/" target="_blank">Click here</a> or <a href ="https://docs.thedotstore.com/collection/706-min-max-quantity" target="_blank">Review Help Document</a></li>
 </ul>
 
-== 👉 COUNTRY QUANTITY  ==
-<ul>
-<li>Set minimum country order quantities (cart total minimum quantity or per item minimum quantity).</li>
-<li>Set maximum country order quantities (cart total maximum quantity or per item maximum quantity).</li>
-</ul>
-
-== 👉 Checkout: Order Quantity  ==
-<ul>
-<li>Set a minimum order quantity required to checkout.</li>
-<li>Set a maximum order quantity required to checkout.</li>
-<li>Set custom message for Min order quantity not reached and Max order quantity exceeded message</li>
-</ul>
-
-== 👉 Checkout: Order Value  ==
-<ul>
-<li>Set a minimum order value required to checkout.</li>
-<li>Set a maximum order value required to checkout.</li>
-<li>Set custom message for Min order value not reached and Max order value exceeded message</li>
-</ul>
-
-
-== 👉 Checkout: Order Item  ==
-<ul>
-<li>Set a minimum order item required to checkout.</li>
-<li>Set a maximum order item required to checkout.</li>
-<li>Set custom message for Min order item not reached and Max order item exceeded message</li>
-</ul>
-
-== ==
-== 💁 Contact Us ==
-
-<li><strong>Free plugin:</strong> Need Technical Help? - <a href="https://wordpress.org/support/plugin/min-and-max-quantity-for-woocommerce/">Click here</a></li>
-<li><strong>Pro Plugin:</strong> PRE-SALE Query – <a href="https://www.thedotstore.com/support/">Click here</a></li>
-
-
-== EXPLORE OUR OTHER PLUGINS TO SUPERCHARGE YOUR WEBSITE: ==
+== 💎 EXPLORE OUR OTHER PLUGINS TO SUPERCHARGE YOUR WEBSITE ==
 
 == 👉 Premium WooCommerce Plugins list ==
 
 <ol>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">WPBricks Manager – Readymade Custom Gutenberg Blocks</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Flat-rate shipping plugins for WooCommerce</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Advanced Product Size Charts For WooCommerce</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Hide Shipping Method For WooCommerce</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Product Attachment For WooCommerce</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Blocker – Prevent Fake Orders And Blacklist Fraud Customers</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Enhanced Ecommerce Google Analytics for WooCommerce</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Category Banner Management for Woocommerce</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Product Finder For WooCommerce</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Mass Pages Posts Creator For WordPress</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Conditional Discount Rules For WooCommerce Checkout</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">WooCommerce Checkout For Digital Goods</a></li>
-<li><a href="https://docs.thedotstore.com/collection/95-woocommerce-extra-fees-plugin">Advance Menu Manager For WordPress</a></li>
+<li>
+<a href ="https://www.thedotstore.com/flat-rate-shipping-plugin-for-woocommerce/" target="_blank">Flat-rate shipping plugins for WooCommerce</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-extra-fees-plugin" target="_blank">WooCommerce Extra Fees</li>
+<li><a href ="https://www.thedotstore.com/hide-shipping-method-for-woocommerce" target="_blank">Hide Shipping Method For WooCommerce</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-product-attachment" target="_blank">Product Attachment For WooCommerce</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-advanced-product-size-charts/" target="_blank">Advanced Product Size Charts Plugin</a></li>
+<li><a href ="https://www.thedotstore.com/product-sample-woocommerce/" target="_blank">Product Sample for WooCommerce</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-anti-fraud/" target="_blank">Blocker – Prevent Fake Orders And Blacklist Fraud Customers</a></li>
+<li><a href ="http://www.thedotstore.com/woocommerce-enhanced-ecommerce-analytics-integration-with-conversion-tracking" target="_blank">Enhanced Ecommerce Google Analytics for WooCommerce</a></li>
+<li><a href ="https://www.thedotstore.com/conditional-payments-for-woocommerce/" target="_blank">Conditional Payments For WooCommerce</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-advanced-usps-shipping-method/" target="_blank">Advanced USPS Shipping Plugin</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-multi-vendor-shipping-addon/" target="_blank">WooCommerce Multi-Vendor Shipping Addon</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-category-banner-management/" target="_blank">Category Banner Management for Woocommerce</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-product-finder" target="_blank">Product Finder For WooCommerce</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-conditional-discount-rules-for-checkout" target="_blank">Conditional Discount Rules For WooCommerce Checkout</a></li>
+<li><a href ="https://www.thedotstore.com/woocommerce-checkout-for-digital-goods/" target="_blank">WooCommerce Checkout For Digital Goods</a></li>
+<li><a href ="https://www.thedotstore.com/attribute-stock-woocommerce/" target="_blank">WooCommerce Attribute Stock</a></li>
 </ol>
+
 
 == Installation ==
 * Download the plugin
@@ -135,13 +154,19 @@ Ans: Yes, a POT file is included.
 
 
 == Screenshots ==
-1.
-2.
-3.
-4.
-5.
+1. 
+2. 
+3. 
+4. 
+5. 
 
 == Changelog ==
+= 2.0.0 =
+* [Enhancement] - Plugin UI enhancement
+* [Enhancement] - Compatible with Elementor Plugin
+* [Enhancement] - Compatible with WooCommerce 9.3.x
+* [Enhancement] - Compatible with WordPress 6.6.x
+
 = 1.1.2 =
 * [Enhancement] - Compatible with WooCommerce 8.7.x
 * [Enhancement] - Compatible with WordPress 6.5.x
