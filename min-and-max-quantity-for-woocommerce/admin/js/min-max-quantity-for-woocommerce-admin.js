@@ -826,7 +826,7 @@ jQuery(document).ready(function () {
 	jQuery(document).on( 'click', '.ds-plugin-setup-wizard-main .fs-actions button', function() {
 		var wizardData = {
             'action': 'mmqw_plugin_setup_wizard_submit',
-            'survey_list': $('.ds-plugin-setup-wizard-main .ds-wizard-where-hear-select').val(),
+            'survey_list': jQuery('.ds-plugin-setup-wizard-main .ds-wizard-where-hear-select').val(),
             'nonce': coditional_vars.setup_wizard_ajax_nonce
         };
 
