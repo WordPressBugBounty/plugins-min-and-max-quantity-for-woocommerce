@@ -571,6 +571,8 @@ class MMQW_Min_Max_Quantity_For_WooCommerce_Admin {
      * @since 1.0.0
      */
     public function mmqw_sm_sort_order() {
+        // Security check
+        check_ajax_referer( 'mmqw_nonce', 'security' );
         $default_lang = $this->mmqw_get_default_langugae_with_sitpress();
         $get_smOrderArray = filter_input(
             INPUT_GET,
@@ -618,6 +620,8 @@ class MMQW_Min_Max_Quantity_For_WooCommerce_Admin {
      *
      */
     public function mmqw_product_fees_conditions_variable_values_product_ajax() {
+        // Security check
+        check_ajax_referer( 'mmqw_nonce', 'security' );
         global $sitepress;
         $default_lang = $this->mmqw_get_default_langugae_with_sitpress();
         $json = true;
@@ -742,6 +746,8 @@ class MMQW_Min_Max_Quantity_For_WooCommerce_Admin {
      *
      */
     public function mmqw_simple_and_variation_product_list_ajax() {
+        // Security check
+        check_ajax_referer( 'mmqw_nonce', 'security' );
         global $sitepress;
         $default_lang = $this->mmqw_get_default_langugae_with_sitpress();
         $json = true;
@@ -981,6 +987,8 @@ class MMQW_Min_Max_Quantity_For_WooCommerce_Admin {
      * if current_shipping_id is empty then it will give message.
      */
     public function mmqw_change_status_from_list_section() {
+        // Security check
+        check_ajax_referer( 'mmqw_nonce', 'security' );
         global $sitepress;
         $default_lang = $this->mmqw_get_default_langugae_with_sitpress();
         /* Check for post request */
@@ -1807,6 +1815,8 @@ class MMQW_Min_Max_Quantity_For_WooCommerce_Admin {
      *
      */
     public function mmqw_rules_conditions_values_ajax() {
+        // Security check
+        check_ajax_referer( 'mmqw_nonce', 'security' );
         $get_condition = filter_input( INPUT_GET, 'condition', FILTER_SANITIZE_STRING );
         $get_count = filter_input( INPUT_GET, 'count', FILTER_SANITIZE_NUMBER_INT );
         $get_group = filter_input( INPUT_GET, 'group', FILTER_SANITIZE_NUMBER_INT );

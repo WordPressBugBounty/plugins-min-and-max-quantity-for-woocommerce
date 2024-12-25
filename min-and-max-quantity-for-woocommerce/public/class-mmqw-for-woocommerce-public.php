@@ -955,9 +955,6 @@ class MMQW_Min_Max_Quantity_For_WooCommerce_Public {
                             $mmqw_rules = ( isset( $mmqw_group['mmqw_rule'] ) && !empty( $mmqw_group['mmqw_rule'] ) ? $mmqw_group['mmqw_rule'] : array() );
                             $min_order_quantity = ( isset( $mmqw_group['mmqw_group_min_qty'] ) && !empty( $mmqw_group['mmqw_group_min_qty'] ) ? $mmqw_group['mmqw_group_min_qty'] : '' );
                             $max_order_quantity = ( isset( $mmqw_group['mmqw_group_max_qty'] ) && !empty( $mmqw_group['mmqw_group_max_qty'] ) ? $mmqw_group['mmqw_group_max_qty'] : '' );
-                            // Fetch the last satisfied args from session
-                            $min_order_quantity = WC()->session->get( 'mmqw_group_min_qty' );
-                            $max_order_quantity = WC()->session->get( 'mmqw_group_max_qty' );
                             if ( is_array( $mmqw_rules ) ) {
                                 foreach ( $mmqw_rules as $mmqw_rule ) {
                                     $rule_condition = ( isset( $mmqw_rule['mmqw_rule_condition'] ) && !empty( $mmqw_rule['mmqw_rule_condition'] ) ? $mmqw_rule['mmqw_rule_condition'] : '' );

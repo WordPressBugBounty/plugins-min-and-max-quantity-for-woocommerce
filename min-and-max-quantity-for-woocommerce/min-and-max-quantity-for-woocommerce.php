@@ -4,7 +4,7 @@
  * Plugin Name: Minimum and Maximum Quantity for WooCommerce
  * Plugin URI:          https://www.thedotstore.com/
  * Description:         We can set a minimum and maximum allowable product quantity and/or price that can be purchased for each product storewide, or just for an individual product.
- * Version:             2.0.0
+ * Version:             2.1.0
  * Author:              theDotstore
  * Author URI:          https://www.thedotstore.com/
  * License:             GPL-2.0+
@@ -14,8 +14,8 @@
  * Requires Plugins:    woocommerce
  * 
  * WC requires at least: 4.5
- * WP tested up to: 6.6.2
- * WC tested up to: 9.3.3
+ * WP tested up to: 6.7.1
+ * WC tested up to: 9.5.1
  * Requires PHP: 7.2
  * Requires at least: 5.0
  *
@@ -65,7 +65,7 @@ if ( !function_exists( 'mmqw_fs' ) ) {
     do_action( 'mmqw_fs_loaded' );
 }
 if ( !defined( 'MMQW_PLUGIN_VERSION' ) ) {
-    define( 'MMQW_PLUGIN_VERSION', '2.0.0' );
+    define( 'MMQW_PLUGIN_VERSION', '2.1.0' );
 }
 if ( !defined( 'MMQW_PLUGIN_URL' ) ) {
     define( 'MMQW_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
@@ -105,6 +105,12 @@ if ( !function_exists( 'mmqw_hide_account_tab' ) ) {
 if ( !function_exists( 'mmqw_load_plugin_header_after_account' ) ) {
     function mmqw_load_plugin_header_after_account() {
         require_once plugin_dir_path( __FILE__ ) . 'admin/partials/header/plugin-header.php';
+        ?>
+        </div>
+        </div>
+        </div>
+        </div>
+        <?php 
     }
 
     mmqw_fs()->add_action( 'after_account_details', 'mmqw_load_plugin_header_after_account' );

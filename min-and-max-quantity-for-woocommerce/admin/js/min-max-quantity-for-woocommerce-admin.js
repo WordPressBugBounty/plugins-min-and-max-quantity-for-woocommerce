@@ -181,7 +181,8 @@
 								return {
 									value: params.term,
 									action: 'mmqw_simple_and_variation_product_list_ajax',
-									with_variable: with_variable
+									with_variable: with_variable,
+									security: coditional_vars.mmqw_ajax_nonce,
 								};
 							},
 							processResults: function (data) {
@@ -222,7 +223,8 @@
 						data: function (params) {
 							return {
 								value: params.term,
-								action: 'mmqw_product_fees_conditions_variable_values_product_ajax'
+								action: 'mmqw_product_fees_conditions_variable_values_product_ajax',
+								security: coditional_vars.mmqw_ajax_nonce,
 							};
 						},
 						processResults: function (data) {
@@ -296,7 +298,8 @@
 				url: coditional_vars.ajaxurl,
 				data: {
 					'action': 'mmqw_sm_sort_order',
-					'smOrderArray': smOrderArray
+					'smOrderArray': smOrderArray,
+					'security': coditional_vars.mmqw_ajax_nonce,
 				},
 				success: function () {
 					if ('on_click' === jQuery.trim(position)) {
@@ -322,7 +325,8 @@
 				data: {
 					'action': 'mmqw_change_status_from_list_section',
 					'current_shipping_id': current_shipping_id,
-					'current_value': current_value
+					'current_value': current_value,
+					'security': coditional_vars.mmqw_ajax_nonce,
 				}, beforeSend: function () {
 					var div = document.createElement('div');
 					div = setAllAttributes(div, {
@@ -623,7 +627,8 @@
 					'action': 'mmqw_rules_conditions_values_ajax',
 					'condition': condition,
 					'count': count,
-					'group': groupNumber
+					'group': groupNumber,
+					'security': coditional_vars.mmqw_ajax_nonce,
 				},
 				contentType: 'application/json',
 				success: function (response) {

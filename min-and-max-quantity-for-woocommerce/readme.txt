@@ -6,9 +6,9 @@ Donate link: https://www.thedotstore.com/
 Tags: Minimum quantity, Maximum quantity, Products quantity, Quantity limit, WooCommrce quantity
 Requires PHP: 7.2
 Requires at least: 5.0
-Tested up to: 6.6.2
-WC tested up to: 9.3.3
-Stable tag: 2.0.0
+Tested up to: 6.7.1
+WC tested up to: 9.5.1
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -161,6 +161,13 @@ Ans: Yes, a POT file is included.
 5. 
 
 == Changelog ==
+= 2.1.0 =
+* [Bug Fix] - Minor fixes related to the plugin compatibility with Bricks theme
+* [Bug Fix] - Minor fixes related to the security vulnerability
+* [Bug Fix] - Minor fixes related to the country based rule
+* [Enhancement] - Compatible with WooCommerce 9.5.x
+* [Enhancement] - Compatible with WordPress 6.7.x
+
 = 2.0.0 =
 * [Enhancement] - Plugin UI enhancement
 * [Enhancement] - Compatible with Elementor Plugin

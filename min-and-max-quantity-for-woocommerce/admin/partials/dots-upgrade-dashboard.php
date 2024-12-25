@@ -15,7 +15,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'header/plugin-header.php' );
 $annual_plugin_price = '';
 $monthly_plugin_price = '';
 $plugin_details = array(
-    'product_id' => 45263,
+    'product_id' => 66675,
 );
 
 $api_url = add_query_arg(wp_rand(), '', MMQW_STORE_URL . 'wp-json/dotstore-product-fs-data/v2/dotstore-product-fs-data');
