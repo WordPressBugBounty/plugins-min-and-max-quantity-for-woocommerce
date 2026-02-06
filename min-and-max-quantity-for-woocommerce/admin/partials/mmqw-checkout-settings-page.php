@@ -238,7 +238,7 @@ esc_html_e( 'Exclude Product', 'min-and-max-quantity-for-woocommerce' );
 ?><span class="mmqw-pro-label"></span>
 							</label>
 							<?php 
-echo wp_kses( wc_help_tip( esc_html__( 'Select product to exclude from min/max quantity validation.', 'min-and-max-quantity-for-woocommerce' ) ), array(
+echo wp_kses( wc_help_tip( esc_html__( 'Select products to exclude from checkout settings rules (Min/Max Order QTY, Min/Max Order Value, Min/Max Order Item).', 'min-and-max-quantity-for-woocommerce' ) ), array(
     'span' => $allowed_tooltip_html,
 ) );
 ?>
@@ -247,6 +247,26 @@ echo wp_kses( wc_help_tip( esc_html__( 'Select product to exclude from min/max q
 							<select name="exclude_product_list[]" id="exclude_product_list" class="" disabled>
 								<option value=""><?php 
 esc_html_e( 'All Products', 'min-and-max-quantity-for-woocommerce' );
+?>
+							</select>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="fr-1" scope="row">
+							<label for="exclude_category_list"><?php 
+esc_html_e( 'Exclude Category', 'min-and-max-quantity-for-woocommerce' );
+?><span class="mmqw-pro-label"></span>
+							</label>
+							<?php 
+echo wp_kses( wc_help_tip( esc_html__( 'Select categories to exclude from checkout settings rules (Min/Max Order QTY, Min/Max Order Value, Min/Max Order Item).', 'min-and-max-quantity-for-woocommerce' ) ), array(
+    'span' => $allowed_tooltip_html,
+) );
+?>
+						</td>
+						<td class="fr-2">
+							<select name="exclude_category_list[]" id="exclude_category_list" class="" disabled>
+								<option value=""><?php 
+esc_html_e( 'All Categories', 'min-and-max-quantity-for-woocommerce' );
 ?>
 							</select>
 						</td>

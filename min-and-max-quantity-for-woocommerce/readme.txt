@@ -6,9 +6,9 @@ Donate link: https://www.thedotstore.com/
 Tags: Minimum quantity, Maximum quantity, Products quantity, Quantity limit, WooCommrce quantity
 Requires PHP: 7.2
 Requires at least: 5.0
-Tested up to: 6.7.1
-WC tested up to: 9.5.1
-Stable tag: 2.1.0
+Tested up to: 6.9
+WC tested up to: 10.4.2
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,12 @@ Upgrade to <a href ="https://bit.ly/3zTcMv7" target="_blank">Minimum and Maximum
 <li><strong>Pro Plugin:</strong>  PRE-SALE Questions - <a href ="https://www.thedotstore.com/support/" target="_blank">Click here</a> or <a href ="https://docs.thedotstore.com/collection/706-min-max-quantity" target="_blank">Review Help Document</a></li>
 </ul>
 
+== 🎯 Supercharge Your Store Performance ==
+
+Gain access to <strong>50 expert tips</strong> covering everything from <strong>site speed</strong> and <strong>user experience</strong> to advanced sales strategies, each with impact scores to help you prioritize what truly drives results.
+
+<a href ="https://www.thedotstore.com/?popup_id=76452&utm_source=freeplugin&utm_medium=content&utm_id=ebook1_min_max" target="_blank">Download Free eBook</a>
+
 == 💎 EXPLORE OUR OTHER PLUGINS TO SUPERCHARGE YOUR WEBSITE ==
 
 == 👉 Premium WooCommerce Plugins list ==
@@ -161,9 +167,14 @@ Ans: Yes, a POT file is included.
 5. 
 
 == Changelog ==
+= 2.1.1 =
+* [Bug Fix] - Fixed minor compatibility issues with the Product Sample plugin
+* [Bug Fix] - Fixed minor issues with default block-based themes
+* [Enhancement] - Fully compatible with WooCommerce 10.4.x
+* [Enhancement] - Fully compatible with WordPress 6.9.x
+
 = 2.1.0 =
 * [Bug Fix] - Minor fixes related to the plugin compatibility with Bricks theme
-* [Bug Fix] - Minor fixes related to the security vulnerability
 * [Bug Fix] - Minor fixes related to the country based rule
 * [Enhancement] - Compatible with WooCommerce 9.5.x
 * [Enhancement] - Compatible with WordPress 6.7.x

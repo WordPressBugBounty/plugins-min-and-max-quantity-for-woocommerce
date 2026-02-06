@@ -272,7 +272,6 @@ if ( ! class_exists( 'MMQW_Min_Max_Rule_list_Table' ) ) {
 		 *
 		 * @param object $item
 		 *
-		 * @return string
 		 * @since 1.0.0
 		 *
 		 */
@@ -286,13 +285,13 @@ if ( ! class_exists( 'MMQW_Min_Max_Rule_list_Table' ) ) {
 			$min_max_title = !empty( get_post_meta( $item->ID, 'fee_settings_unique_shipping_title', true ) ) ? get_post_meta( $item->ID, 'fee_settings_unique_shipping_title', true ) : ( !empty( $item->post_title ) ? $item->post_title : '' );
 
 			if ( strlen($min_max_title) > 38 ) {
-			$method_name = '<strong>
-							<a href="' . wp_nonce_url( $editurl, 'edit_' . $item->ID, 'cust_nonce' ) . '" class="row-title" title="'. esc_attr( $min_max_title ) .'">' . esc_html( substr( $min_max_title, 0, 38) ) . '...</a>
-						</strong>';
+				$method_name = '<strong>
+								<a href="' . wp_nonce_url( $editurl, 'edit_' . $item->ID, 'cust_nonce' ) . '" class="row-title" title="'. esc_attr( $min_max_title ) .'">' . esc_html( substr( $min_max_title, 0, 38) ) . '...</a>
+							</strong>';
 			} else {
-            $method_name = '<strong>
-							<a href="' . wp_nonce_url( $editurl, 'edit_' . $item->ID, 'cust_nonce' ) . '" class="row-title" >' . esc_html( $min_max_title ) . '</a>
-						</strong>';
+				$method_name = '<strong>
+								<a href="' . wp_nonce_url( $editurl, 'edit_' . $item->ID, 'cust_nonce' ) . '" class="row-title" >' . esc_html( $min_max_title ) . '</a>
+							</strong>';
 			}
 
 			echo wp_kses( $method_name, Min_Max_Quantity_For_WooCommerce::mmqw_allowed_html_tags() );
@@ -426,7 +425,7 @@ if ( ! class_exists( 'MMQW_Min_Max_Rule_list_Table' ) ) {
 
 			$deletenonce = wp_verify_nonce( $delete_nonce, 'bulk-mmqw-minmax' );
 
-			if ( ! isset( $deletenonce ) && 1 !== $deletenonce ) {
+			if ( ! empty( $deletenonce ) && 1 !== $deletenonce ) {
 				return;
 			}
 

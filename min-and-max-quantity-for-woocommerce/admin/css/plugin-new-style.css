@@ -14,6 +14,7 @@ input[type=checkbox]:focus,input[type=radio]:focus{border-color:var(--dots-prima
 .fs-modal input[type=text]:focus, #fs_account .fs-key-value-table input[type=text]:focus, .mmqw-section-left input:focus, .mmqw-section-left .wp-picker-container .button:focus, .mmqw-section-left textarea:focus, .mmqw-section-left select:focus, .ds-plugin-setup-wizard-main select:focus{border-color:var(--dots-primary);box-shadow:none;outline:none;}
 #adminmenu .wp-has-current-submenu .wp-not-current-submenu + .wp-submenu{border-left:none;}
 .wp-core-ui input:disabled,.wp-core-ui select:disabled{color:#a7aaad;border-color:#dcdcde;background-color:#f6f7f7;opacity:0.7;}
+.mmqw-main-table table.form-table tr td select, .mmqw-main-table table.form-table tr td textarea, .mmqw-main-table table.form-table tr td input:not(input[type="checkbox"]):not(.wp-color-picker):not(.wp-picker-clear){min-width: 40%;padding: 5px 10px;vertical-align: middle;}
 
 /* header new design */
 header.dots-header{background-color:#fff;border-radius:5px;box-shadow:0 4px 10px rgb(0 0 0 / 8%);margin:10px 0 30px;}
@@ -103,6 +104,7 @@ header.dots-header{background-color:#fff;border-radius:5px;box-shadow:0 4px 10px
 .mmqw-main-table h2:not(.dotstore-upgrade-dashboard h2),#fs_account h3{font-size:18px;line-height:24px;font-weight:500;background-color:#DEDEDE;padding:15px 30px;border:none;margin:0;color:#1d2327;border-bottom:1px solid #dadada;border-radius:5px 5px 0 0;}
 .mmqw-main-table table.table-outer tr:last-child{border:none;}
 .mmqw-main-table table.table-outer tr td.fr-1{font-weight:400;width:34%;border:none;}
+.mmqw-main-table table.table-outer tr td.title_td{background-color: #f5f5f5;}
 .mmqw-main-table table.min-max-manage-msg-table tr td.fr-1{width:37%;}
 .mmqw-main-table table.table-outer tr td.fr-2{border:none;}
 .mmqw-main-table table.table-outer tr th, .mmqw-main-table table.table-outer tr td{font-size:14px;line-height:19px;font-weight:400;padding:15px 30px;}
@@ -215,6 +217,7 @@ body.mmqw-modal-visible{overflow:hidden;}
 	#fs_account .fs-key-value-table td,
     #fs_account .fs-key-value-table th,
     #fs_account h3{font-size:17px;line-height:20px;padding:14px 20px}
+    .mmqw-limit-section{flex-wrap: wrap;}
 }
 @media screen and (max-width:1100px){
     .dots-getting-started-main > div{width:100%}

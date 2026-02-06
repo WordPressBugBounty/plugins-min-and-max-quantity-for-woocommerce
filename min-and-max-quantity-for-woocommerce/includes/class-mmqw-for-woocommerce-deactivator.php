@@ -1,8 +1,4 @@
 <?php
-// If this file is called directly, abort.
-if ( !defined( 'ABSPATH' ) ) {
-    exit;
-}
 /**
  * Fired during plugin deactivation
  *
@@ -23,17 +19,24 @@ if ( !defined( 'ABSPATH' ) ) {
  * @subpackage Min_Max_Quantity_For_WooCommerce/includes
  * @author     thedotstore <hello@thedotstore.com>
  */
-class Min_Max_Quantity_For_WooCommerce_Deactivator {
 
-	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
-	 *
-	 * @since    1.0.0
-	 */
-	public static function deactivate() {
+// If this file is called directly, abort.
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 
+if ( ! class_exists( 'Min_Max_Quantity_For_WooCommerce_Deactivator' ) ) {
+	class Min_Max_Quantity_For_WooCommerce_Deactivator {
+
+		/**
+		 * Short Description. (use period)
+		 *
+		 * Long Description.
+		 *
+		 * @since    1.0.0
+		 */
+		public static function deactivate() {
+
+		}
 	}
-
 }

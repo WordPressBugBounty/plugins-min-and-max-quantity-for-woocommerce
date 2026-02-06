@@ -315,6 +315,13 @@ if ( isset( $mmqw_rule_groups ) && !empty( $mmqw_rule_groups ) && is_array( $mmq
                 esc_html_e( 'Sale Price 🔒', 'min-and-max-quantity-for-woocommerce' );
                 ?>
                                                                                 </option>
+                                                                                <option value="regular_price_in_pro" <?php 
+                echo ( 'regular_price' === $mmqw_rule_condition ? 'selected' : '' );
+                ?>>
+                                                                                    <?php 
+                esc_html_e( 'Regular Price 🔒', 'min-and-max-quantity-for-woocommerce' );
+                ?>
+                                                                                </option>
                                                                                 <option value="product_age_in_pro" <?php 
                 echo ( 'product_age' === $mmqw_rule_condition ? 'selected' : '' );
                 ?>>
@@ -833,6 +840,11 @@ if ( isset( $mmqw_rule_groups ) && !empty( $mmqw_rule_groups ) && is_array( $mmq
                                                                     <option value="sale_price_in_pro">
                                                                         <?php 
     esc_html_e( 'Sale Price 🔒', 'min-and-max-quantity-for-woocommerce' );
+    ?>
+                                                                    </option>
+                                                                    <option value="regular_price_in_pro">
+                                                                        <?php 
+    esc_html_e( 'Regular Price 🔒', 'min-and-max-quantity-for-woocommerce' );
     ?>
                                                                     </option>
                                                                     <option value="product_age_in_pro">

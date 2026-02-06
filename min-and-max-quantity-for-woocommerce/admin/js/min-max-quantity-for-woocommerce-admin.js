@@ -566,6 +566,7 @@
 						{ 'name': coditional_vars.qty_on_total_sales_in_pro, 'attributes': { 'value': 'total_sales_in_pro' } },
 						{ 'name': coditional_vars.qty_on_stock_quantity_in_pro, 'attributes': { 'value': 'stock_quantity_in_pro' } },
 						{ 'name': coditional_vars.qty_on_sale_price_in_pro, 'attributes': { 'value': 'sale_price_in_pro' } },
+						{ 'name': coditional_vars.qty_on_regular_price_in_pro, 'attributes': { 'value': 'regular_price_in_pro' } },
 						{ 'name': coditional_vars.qty_on_product_age_in_pro, 'attributes': { 'value': 'product_age_in_pro' } },
 						{ 'name': coditional_vars.qty_on_best_sellers_in_pro, 'attributes': { 'value': 'best_sellers_in_pro' } },
 						{ 'name': coditional_vars.qty_on_product_attributes_in_pro, 'attributes': { 'value': 'product_attributes_in_pro' } },
@@ -602,6 +603,10 @@
 						{ 'name': coditional_vars.qty_on_cart_coupon_in_pro, 'attributes': { 'value': 'cart_coupon_in_pro' } },
 						{ 'name': coditional_vars.qty_on_shipping_method_in_pro, 'attributes': { 'value': 'shipping_method_in_pro' } },
 						{ 'name': coditional_vars.qty_on_shipping_zone_in_pro, 'attributes': { 'value': 'shipping_zone_in_pro' } },
+						{ 'name': coditional_vars.qty_on_length_in_pro, 'attributes': { 'value': 'length_in_pro' } },
+						{ 'name': coditional_vars.qty_on_width_in_pro, 'attributes': { 'value': 'width_in_pro' } },
+						{ 'name': coditional_vars.qty_on_height_in_pro, 'attributes': { 'value': 'height_in_pro' } },
+						{ 'name': coditional_vars.qty_on_weight_in_pro, 'attributes': { 'value': 'weight_in_pro' } },
 
 					]
 				},

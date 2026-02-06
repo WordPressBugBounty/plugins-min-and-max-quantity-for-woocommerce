@@ -922,6 +922,7 @@ div#dotsstoremain .mmqw-main-table.res-cl p.submit {
     margin: 0;
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
+    padding: 5px 2px;
 }
 
 #dotsstoremain .mmqw-main-table.res-cl .pricing_rules .min_max_select+span input.select2-search__field::-webkit-scrollbar {
@@ -1334,6 +1335,9 @@ div#dotsstoremain .mmqw-main-table.res-cl p.submit {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+.mmqw-limit-section input {
+    margin: 0;
 }
 
 #tbl-shipping-method label,

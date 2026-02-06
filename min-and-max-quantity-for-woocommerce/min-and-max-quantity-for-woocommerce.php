@@ -2,9 +2,9 @@
 
 /**
  * Plugin Name: Minimum and Maximum Quantity for WooCommerce
- * Plugin URI:          https://www.thedotstore.com/
+ * Plugin URI:          https://www.thedotstore.com/min-and-max-quantity-for-woocommerce/
  * Description:         We can set a minimum and maximum allowable product quantity and/or price that can be purchased for each product storewide, or just for an individual product.
- * Version:             2.1.0
+ * Version:             2.1.1
  * Author:              theDotstore
  * Author URI:          https://www.thedotstore.com/
  * License:             GPL-2.0+
@@ -12,10 +12,10 @@
  * Text Domain:         min-and-max-quantity-for-woocommerce
  * Domain Path:         /languages
  * Requires Plugins:    woocommerce
- * 
+ *
  * WC requires at least: 4.5
- * WP tested up to: 6.7.1
- * WC tested up to: 9.5.1
+ * WP tested up to: 6.9
+ * WC tested up to: 10.4.2
  * Requires PHP: 7.2
  * Requires at least: 5.0
  *
@@ -24,48 +24,52 @@
 if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
-if ( !function_exists( 'mmqw_fs' ) ) {
-    // Create a helper function for easy SDK access.
-    function mmqw_fs() {
-        global $mmqw_fs;
-        if ( !isset( $mmqw_fs ) ) {
-            // Activate multisite network integration.
-            if ( !defined( 'WP_FS__PRODUCT_12041_MULTISITE' ) ) {
-                define( 'WP_FS__PRODUCT_12041_MULTISITE', true );
+if ( function_exists( 'mmqw_fs' ) ) {
+    mmqw_fs()->set_basename( false, __FILE__ );
+} else {
+    if ( !function_exists( 'mmqw_fs' ) ) {
+        // Create a helper function for easy SDK access.
+        function mmqw_fs() {
+            global $mmqw_fs;
+            if ( !isset( $mmqw_fs ) ) {
+                // Activate multisite network integration.
+                if ( !defined( 'WP_FS__PRODUCT_12041_MULTISITE' ) ) {
+                    define( 'WP_FS__PRODUCT_12041_MULTISITE', true );
+                }
+                // Include Freemius SDK.
+                require_once dirname( __FILE__ ) . '/freemius/start.php';
+                $mmqw_fs = fs_dynamic_init( array(
+                    'id'             => '12041',
+                    'slug'           => 'min-and-max-quantity-for-woocommerce',
+                    'type'           => 'plugin',
+                    'public_key'     => 'pk_b6c4d7923cb624cb7edd66eb23fb6',
+                    'is_premium'     => false,
+                    'has_addons'     => false,
+                    'has_paid_plans' => true,
+                    'trial'          => array(
+                        'days'               => 14,
+                        'is_require_payment' => true,
+                    ),
+                    'menu'           => array(
+                        'slug'       => 'mmqw-rules-list',
+                        'first-path' => 'admin.php?page=mmqw-rules-list',
+                        'support'    => false,
+                        'network'    => true,
+                    ),
+                    'is_live'        => true,
+                ) );
             }
-            // Include Freemius SDK.
-            require_once dirname( __FILE__ ) . '/freemius/start.php';
-            $mmqw_fs = fs_dynamic_init( array(
-                'id'             => '12041',
-                'slug'           => 'min-and-max-quantity-for-woocommerce',
-                'type'           => 'plugin',
-                'public_key'     => 'pk_b6c4d7923cb624cb7edd66eb23fb6',
-                'is_premium'     => false,
-                'has_addons'     => false,
-                'has_paid_plans' => true,
-                'trial'          => array(
-                    'days'               => 14,
-                    'is_require_payment' => true,
-                ),
-                'menu'           => array(
-                    'slug'       => 'mmqw-rules-list',
-                    'first-path' => 'admin.php?page=mmqw-rules-list',
-                    'support'    => false,
-                    'network'    => true,
-                ),
-                'is_live'        => true,
-            ) );
+            return $mmqw_fs;
         }
-        return $mmqw_fs;
-    }
 
-    // Init Freemius.
-    mmqw_fs();
-    // Signal that SDK was initiated.
-    do_action( 'mmqw_fs_loaded' );
+        // Init Freemius.
+        mmqw_fs();
+        // Signal that SDK was initiated.
+        do_action( 'mmqw_fs_loaded' );
+    }
 }
 if ( !defined( 'MMQW_PLUGIN_VERSION' ) ) {
-    define( 'MMQW_PLUGIN_VERSION', '2.1.0' );
+    define( 'MMQW_PLUGIN_VERSION', '2.1.1' );
 }
 if ( !defined( 'MMQW_PLUGIN_URL' ) ) {
     define( 'MMQW_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
