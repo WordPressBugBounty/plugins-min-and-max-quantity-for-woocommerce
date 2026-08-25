@@ -1910,7 +1910,7 @@ if ( !class_exists( 'MMQW_Min_Max_Quantity_For_WooCommerce_Admin' ) ) {
         public function mmqw_rules_conditions_values_ajax() {
             // Security check
             check_ajax_referer( 'mmqw_nonce', 'security' );
-            $get_condition = filter_input( INPUT_GET, 'condition', FILTER_SANITIZE_STRING );
+            $get_condition = filter_input( INPUT_GET, 'condition', FILTER_SANITIZE_FULL_SPECIAL_CHARS );
             $get_count = filter_input( INPUT_GET, 'count', FILTER_SANITIZE_NUMBER_INT );
             $get_group = filter_input( INPUT_GET, 'group', FILTER_SANITIZE_NUMBER_INT );
             $condition = ( isset( $get_condition ) ? sanitize_text_field( $get_condition ) : '' );

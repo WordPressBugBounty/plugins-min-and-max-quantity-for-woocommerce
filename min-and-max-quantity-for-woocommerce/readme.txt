@@ -6,9 +6,9 @@ Donate link: https://www.thedotstore.com/
 Tags: Minimum quantity, Maximum quantity, Products quantity, Quantity limit, WooCommrce quantity
 Requires PHP: 7.2
 Requires at least: 5.0
-Tested up to: 6.9
-WC tested up to: 10.4.2
-Stable tag: 2.1.1
+Tested up to: 7.0.1
+WC tested up to: 11.0
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -167,6 +167,12 @@ Ans: Yes, a POT file is included.
 5. 
 
 == Changelog ==
+= 2.1.2 =
+* [Bug Fix] - Plugin compatibility witht the cart and checkout block
+* [Bug Fix] - Fixed minor issues with deprecated functions
+* [Enhancement] - Fully compatible with WooCommerce 11.0.x
+* [Enhancement] - Fully compatible with WordPress 7.1.x
+
 = 2.1.1 =
 * [Bug Fix] - Fixed minor compatibility issues with the Product Sample plugin
 * [Bug Fix] - Fixed minor issues with default block-based themes

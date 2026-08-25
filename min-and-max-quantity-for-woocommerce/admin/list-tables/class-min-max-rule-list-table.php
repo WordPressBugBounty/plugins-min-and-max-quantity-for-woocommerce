@@ -508,7 +508,7 @@ if ( ! class_exists( 'MMQW_Min_Max_Rule_list_Table' ) ) {
 		public static function mmqw_active_find( $args = '' ) {
 			$defaults = array(
 				'post_status'    => 'publish',
-				'posts_per_page' => -1,
+				'posts_per_page' => -1, // phpcs:ignore
 			);
 
 			$args = wp_parse_args( $args, $defaults );
