@@ -293,11 +293,6 @@ if ( !class_exists( 'MMQW_Min_Max_Quantity_For_WooCommerce_Public' ) ) {
                 return $args;
             }
             $mmqw_rule_groups = get_post_meta( $sm_post_id, 'mmqw_rule_groups', true );
-            if ( is_serialized( $mmqw_rule_groups ) ) {
-                $mmqw_rule_groups = maybe_unserialize( $mmqw_rule_groups );
-            } else {
-                $mmqw_rule_groups = $mmqw_rule_groups;
-            }
             if ( isset( $mmqw_rule_groups ) && !empty( $mmqw_rule_groups ) && is_array( $mmqw_rule_groups ) ) {
                 foreach ( $mmqw_rule_groups as $mmqw_group ) {
                     $mmqw_group_status = ( isset( $mmqw_group['mmqw_group_status'] ) ? $mmqw_group['mmqw_group_status'] : 'off' );
@@ -445,11 +440,6 @@ if ( !class_exists( 'MMQW_Min_Max_Quantity_For_WooCommerce_Public' ) ) {
                     /** Check the rule language and set the Min/Max quantity argument as per the rules added by the admin */
                     if ( $post_id_language_code === $default_lang ) {
                         $mmqw_rule_groups = get_post_meta( $sm_post_id, 'mmqw_rule_groups', true );
-                        if ( is_serialized( $mmqw_rule_groups ) ) {
-                            $mmqw_rule_groups = maybe_unserialize( $mmqw_rule_groups );
-                        } else {
-                            $mmqw_rule_groups = $mmqw_rule_groups;
-                        }
                         if ( isset( $mmqw_rule_groups ) && !empty( $mmqw_rule_groups ) && is_array( $mmqw_rule_groups ) ) {
                             foreach ( $mmqw_rule_groups as $mmqw_group ) {
                                 $mmqw_group_status = ( isset( $mmqw_group['mmqw_group_status'] ) && !empty( $mmqw_group['mmqw_group_status'] ) ? $mmqw_group['mmqw_group_status'] : 'off' );
@@ -816,11 +806,6 @@ if ( !class_exists( 'MMQW_Min_Max_Quantity_For_WooCommerce_Public' ) ) {
                             $current_product_id = $product_id;
                         }
                         $mmqw_rule_groups = get_post_meta( $sm_post_id, 'mmqw_rule_groups', true );
-                        if ( is_serialized( $mmqw_rule_groups ) ) {
-                            $mmqw_rule_groups = maybe_unserialize( $mmqw_rule_groups );
-                        } else {
-                            $mmqw_rule_groups = $mmqw_rule_groups;
-                        }
                         if ( isset( $mmqw_rule_groups ) && !empty( $mmqw_rule_groups ) && is_array( $mmqw_rule_groups ) ) {
                             foreach ( $mmqw_rule_groups as $mmqw_group ) {
                                 $mmqw_group_status = ( isset( $mmqw_group['mmqw_group_status'] ) && !empty( $mmqw_group['mmqw_group_status'] ) ? $mmqw_group['mmqw_group_status'] : 'off' );
@@ -972,11 +957,6 @@ if ( !class_exists( 'MMQW_Min_Max_Quantity_For_WooCommerce_Public' ) ) {
                         $sm_post_id = $mm_rule_id;
                     }
                     $mmqw_rule_groups = get_post_meta( $sm_post_id, 'mmqw_rule_groups', true );
-                    if ( is_serialized( $mmqw_rule_groups ) ) {
-                        $mmqw_rule_groups = maybe_unserialize( $mmqw_rule_groups );
-                    } else {
-                        $mmqw_rule_groups = $mmqw_rule_groups;
-                    }
                     if ( isset( $mmqw_rule_groups ) && !empty( $mmqw_rule_groups ) && is_array( $mmqw_rule_groups ) ) {
                         foreach ( $mmqw_rule_groups as $mmqw_group ) {
                             $mmqw_group_status = ( isset( $mmqw_group['mmqw_group_status'] ) && !empty( $mmqw_group['mmqw_group_status'] ) ? $mmqw_group['mmqw_group_status'] : 'off' );

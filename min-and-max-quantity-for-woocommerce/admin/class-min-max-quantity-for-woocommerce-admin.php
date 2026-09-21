@@ -524,9 +524,16 @@ if ( !class_exists( 'MMQW_Min_Max_Quantity_For_WooCommerce_Admin' ) ) {
          */
         public function mmqw_register_post_type() {
             register_post_type( self::min_max_quantity_post_type, array(
-                'labels' => array(
+                'labels'       => array(
                     'name'          => __( 'Min/Max Quantity Rules', 'min-and-max-quantity-for-woocommerce' ),
                     'singular_name' => __( 'Min/Max Quantity Rules', 'min-and-max-quantity-for-woocommerce' ),
+                ),
+                'map_meta_cap' => true,
+                'capabilities' => array(
+                    'create_posts'      => 'manage_options',
+                    'edit_posts'        => 'manage_options',
+                    'publish_posts'     => 'manage_options',
+                    'edit_others_posts' => 'manage_options',
                 ),
             ) );
         }
@@ -1999,29 +2006,9 @@ if ( !class_exists( 'MMQW_Min_Max_Quantity_For_WooCommerce_Admin' ) ) {
                         $cost_on_category_status = get_post_meta( $sm_post_id, 'cost_on_category_status', true );
                         $cost_on_country_status = get_post_meta( $sm_post_id, 'cost_on_country_status', true );
                         $sm_metabox_ap_product = get_post_meta( $sm_post_id, 'sm_metabox_ap_product', true );
-                        if ( is_serialized( $sm_metabox_ap_product ) ) {
-                            $sm_metabox_ap_product = maybe_unserialize( $sm_metabox_ap_product );
-                        } else {
-                            $sm_metabox_ap_product = $sm_metabox_ap_product;
-                        }
                         $sm_metabox_ap_product_variation = get_post_meta( $sm_post_id, 'sm_metabox_ap_product_variation', true );
-                        if ( is_serialized( $sm_metabox_ap_product_variation ) ) {
-                            $sm_metabox_ap_product_variation = maybe_unserialize( $sm_metabox_ap_product_variation );
-                        } else {
-                            $sm_metabox_ap_product_variation = $sm_metabox_ap_product_variation;
-                        }
                         $sm_metabox_ap_category = get_post_meta( $sm_post_id, 'sm_metabox_ap_category', true );
-                        if ( is_serialized( $sm_metabox_ap_category ) ) {
-                            $sm_metabox_ap_category = maybe_unserialize( $sm_metabox_ap_category );
-                        } else {
-                            $sm_metabox_ap_category = $sm_metabox_ap_category;
-                        }
                         $sm_metabox_ap_country = get_post_meta( $sm_post_id, 'sm_metabox_ap_country', true );
-                        if ( is_serialized( $sm_metabox_ap_country ) ) {
-                            $sm_metabox_ap_country = maybe_unserialize( $sm_metabox_ap_country );
-                        } else {
-                            $sm_metabox_ap_country = $sm_metabox_ap_country;
-                        }
                         $filled_arr = array();
                         if ( !empty( $sm_metabox_ap_product ) && is_array( $sm_metabox_ap_product ) ) {
                             foreach ( $sm_metabox_ap_product as $app_arr ) {

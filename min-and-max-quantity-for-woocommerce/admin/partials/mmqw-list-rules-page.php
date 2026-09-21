@@ -171,7 +171,7 @@ if (!class_exists('MMQW_Rule_Listing_Page')) {
 									continue;
 								}
 
-								$meta_value = maybe_unserialize($meta_data[0]);
+								$meta_value = is_serialized($meta_data[0]) ? unserialize($meta_data[0], array('allowed_classes' => false)) : $meta_data[0]; // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.serialize_unserialize
 
 								update_post_meta($new_post_id, $meta_key, $meta_value);
 							}

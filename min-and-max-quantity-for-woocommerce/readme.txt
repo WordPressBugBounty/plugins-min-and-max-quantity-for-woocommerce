@@ -7,8 +7,8 @@ Tags: Minimum quantity, Maximum quantity, Products quantity, Quantity limit, Woo
 Requires PHP: 7.2
 Requires at least: 5.0
 Tested up to: 7.0.1
-WC tested up to: 11.0
-Stable tag: 2.1.2
+WC tested up to: 11.1.0
+Stable tag: 2.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -167,6 +167,11 @@ Ans: Yes, a POT file is included.
 5. 
 
 == Changelog ==
+= 2.1.3 =
+* [Enhancement] - Security: Fixed a PHP Object Injection vulnerability.
+* [Enhancement] - Fully compatible with WooCommerce 11.1.x
+* [Enhancement] - Fully compatible with WordPress 7.1.x
+
 = 2.1.2 =
 * [Bug Fix] - Plugin compatibility witht the cart and checkout block
 * [Bug Fix] - Fixed minor issues with deprecated functions

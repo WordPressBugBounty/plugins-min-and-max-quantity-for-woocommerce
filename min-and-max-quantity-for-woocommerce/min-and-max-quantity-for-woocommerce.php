@@ -4,7 +4,7 @@
  * Plugin Name: Minimum and Maximum Quantity for WooCommerce
  * Plugin URI:          https://www.thedotstore.com/min-and-max-quantity-for-woocommerce/
  * Description:         We can set a minimum and maximum allowable product quantity and/or price that can be purchased for each product storewide, or just for an individual product.
- * Version:             2.1.2
+ * Version:             2.1.3
  * Author:              theDotstore
  * Author URI:          https://www.thedotstore.com/
  * License:             GPL-2.0+
@@ -13,9 +13,9 @@
  * Domain Path:         /languages
  * Requires Plugins:    woocommerce
  *
- * WC requires at least: 5.0
- * WP tested up to: 7.1
- * WC tested up to: 11.0.1
+ * WC requires at least: 4.5
+ * WP tested up to: 6.9
+ * WC tested up to: 10.4.2
  * Requires PHP: 7.2
  * Requires at least: 5.0
  *
@@ -52,7 +52,7 @@ if ( function_exists( 'mmqw_fs' ) ) {
                     ),
                     'menu'             => array(
                         'slug'       => 'mmqw-rules-list',
-                        'first-path' => 'admin.php?page=mmqw-rules-list&send-wizard-data=true',
+                        'first-path' => 'admin.php?page=mmqw-rules-list',
                         'support'    => false,
                         'network'    => true,
                     ),
@@ -70,7 +70,7 @@ if ( function_exists( 'mmqw_fs' ) ) {
     }
 }
 if ( !defined( 'MMQW_PLUGIN_VERSION' ) ) {
-    define( 'MMQW_PLUGIN_VERSION', '2.1.2' );
+    define( 'MMQW_PLUGIN_VERSION', '2.1.3' );
 }
 if ( !defined( 'MMQW_PLUGIN_URL' ) ) {
     define( 'MMQW_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

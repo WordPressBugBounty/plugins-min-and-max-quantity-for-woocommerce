@@ -27,11 +27,6 @@ if ( isset( $get_action ) && 'edit' === $get_action ) {
     $sm_title = __( get_the_title( $get_post_id ), 'min-and-max-quantity-for-woocommerce' );
     $fee_settings_unique_shipping_title = get_post_meta( $get_post_id, 'fee_settings_unique_shipping_title', true );
     $mmqw_rule_groups = get_post_meta( $get_post_id, 'mmqw_rule_groups', true );
-    if ( is_serialized( $mmqw_rule_groups ) ) {
-        $mmqw_rule_groups = maybe_unserialize( $mmqw_rule_groups );
-    } else {
-        $mmqw_rule_groups = $mmqw_rule_groups;
-    }
 } else {
     $get_post_id = '';
     $sm_status = '';

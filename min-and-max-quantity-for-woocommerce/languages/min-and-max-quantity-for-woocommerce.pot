@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Minimum and Maximum Quantity for WooCommerce (Premium) "
-"2.1.2\n"
+"2.1.3\n"
 "Report-Msgid-Bugs-To: https://www.multidots.com/contact/\n"
-"POT-Creation-Date: 2026-08-25 09:50:25+00:00\n"
+"POT-Creation-Date: 2026-09-18 11:31:56+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,9 +27,9 @@ msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:259
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:275
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1517
-#: admin/partials/mmqw-add-new-rule-page.php:347
-#: admin/partials/mmqw-add-new-rule-page.php:973
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1524
+#: admin/partials/mmqw-add-new-rule-page.php:342
+#: admin/partials/mmqw-add-new-rule-page.php:968
 msgid "Country"
 msgstr ""
 
@@ -56,7 +56,7 @@ msgstr ""
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:265
 #: admin/list-tables/class-min-max-rule-list-table.php:339
 #: admin/list-tables/class-min-max-rule-list-table.php:404
-#: admin/partials/mmqw-add-new-rule-page.php:1309
+#: admin/partials/mmqw-add-new-rule-page.php:1304
 msgid "Delete"
 msgstr ""
 
@@ -73,314 +73,314 @@ msgid "Please fill some required fields in the Advanced Rules section."
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:269
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1515
-#: admin/partials/mmqw-add-new-rule-page.php:345
-#: admin/partials/mmqw-add-new-rule-page.php:971
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1522
+#: admin/partials/mmqw-add-new-rule-page.php:340
+#: admin/partials/mmqw-add-new-rule-page.php:966
 msgid "Location Specific"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:270
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1434
-#: admin/partials/mmqw-add-new-rule-page.php:261
-#: admin/partials/mmqw-add-new-rule-page.php:889
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1441
+#: admin/partials/mmqw-add-new-rule-page.php:256
+#: admin/partials/mmqw-add-new-rule-page.php:884
 msgid "Product Specific"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:271
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1535
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1572
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1610
-#: admin/partials/mmqw-add-new-rule-page.php:370
-#: admin/partials/mmqw-add-new-rule-page.php:410
-#: admin/partials/mmqw-add-new-rule-page.php:452
-#: admin/partials/mmqw-add-new-rule-page.php:997
-#: admin/partials/mmqw-add-new-rule-page.php:1037
-#: admin/partials/mmqw-add-new-rule-page.php:1078
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1542
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1579
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1617
+#: admin/partials/mmqw-add-new-rule-page.php:365
+#: admin/partials/mmqw-add-new-rule-page.php:405
+#: admin/partials/mmqw-add-new-rule-page.php:447
+#: admin/partials/mmqw-add-new-rule-page.php:992
+#: admin/partials/mmqw-add-new-rule-page.php:1032
+#: admin/partials/mmqw-add-new-rule-page.php:1073
 msgid "Cart Specific"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:272
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1436
-#: admin/partials/mmqw-add-new-rule-page.php:263
-#: admin/partials/mmqw-add-new-rule-page.php:891
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1443
+#: admin/partials/mmqw-add-new-rule-page.php:258
+#: admin/partials/mmqw-add-new-rule-page.php:886
 msgid "Product"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:273
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1439
-#: admin/partials/mmqw-add-new-rule-page.php:266
-#: admin/partials/mmqw-add-new-rule-page.php:894
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1446
+#: admin/partials/mmqw-add-new-rule-page.php:261
+#: admin/partials/mmqw-add-new-rule-page.php:889
 msgid "Variable Product"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:274
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1442
-#: admin/partials/mmqw-add-new-rule-page.php:269
-#: admin/partials/mmqw-add-new-rule-page.php:897
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1449
+#: admin/partials/mmqw-add-new-rule-page.php:264
+#: admin/partials/mmqw-add-new-rule-page.php:892
 msgid "Category"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:276
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1448
-#: admin/partials/mmqw-add-new-rule-page.php:276
-#: admin/partials/mmqw-add-new-rule-page.php:903
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1455
+#: admin/partials/mmqw-add-new-rule-page.php:271
+#: admin/partials/mmqw-add-new-rule-page.php:898
 msgid "Total Sales"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:277
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1451
-#: admin/partials/mmqw-add-new-rule-page.php:279
-#: admin/partials/mmqw-add-new-rule-page.php:906
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1458
+#: admin/partials/mmqw-add-new-rule-page.php:274
+#: admin/partials/mmqw-add-new-rule-page.php:901
 msgid "Stock Quantity"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:278
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1454
-#: admin/partials/mmqw-add-new-rule-page.php:282
-#: admin/partials/mmqw-add-new-rule-page.php:909
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1461
+#: admin/partials/mmqw-add-new-rule-page.php:277
+#: admin/partials/mmqw-add-new-rule-page.php:904
 msgid "Sale Price"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:279
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1457
-#: admin/partials/mmqw-add-new-rule-page.php:285
-#: admin/partials/mmqw-add-new-rule-page.php:912
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1464
+#: admin/partials/mmqw-add-new-rule-page.php:280
+#: admin/partials/mmqw-add-new-rule-page.php:907
 msgid "Regular Price"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:280
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1460
-#: admin/partials/mmqw-add-new-rule-page.php:288
-#: admin/partials/mmqw-add-new-rule-page.php:915
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1467
+#: admin/partials/mmqw-add-new-rule-page.php:283
+#: admin/partials/mmqw-add-new-rule-page.php:910
 msgid "Product Age"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:281
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1463
-#: admin/partials/mmqw-add-new-rule-page.php:291
-#: admin/partials/mmqw-add-new-rule-page.php:918
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1470
+#: admin/partials/mmqw-add-new-rule-page.php:286
+#: admin/partials/mmqw-add-new-rule-page.php:913
 msgid "Best Sellers"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:282
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1466
-#: admin/partials/mmqw-add-new-rule-page.php:294
-#: admin/partials/mmqw-add-new-rule-page.php:921
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1473
+#: admin/partials/mmqw-add-new-rule-page.php:289
+#: admin/partials/mmqw-add-new-rule-page.php:916
 msgid "Product Attributes"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:283
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1537
-#: admin/partials/mmqw-add-new-rule-page.php:372
-#: admin/partials/mmqw-add-new-rule-page.php:999
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1544
+#: admin/partials/mmqw-add-new-rule-page.php:367
+#: admin/partials/mmqw-add-new-rule-page.php:994
 msgid "Cart Coupon"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:284
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1543
-#: admin/partials/mmqw-add-new-rule-page.php:378
-#: admin/partials/mmqw-add-new-rule-page.php:1005
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1550
+#: admin/partials/mmqw-add-new-rule-page.php:373
+#: admin/partials/mmqw-add-new-rule-page.php:1000
 msgid "Shipping Method"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:285
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1540
-#: admin/partials/mmqw-add-new-rule-page.php:375
-#: admin/partials/mmqw-add-new-rule-page.php:1002
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1547
+#: admin/partials/mmqw-add-new-rule-page.php:370
+#: admin/partials/mmqw-add-new-rule-page.php:997
 msgid "Shipping Zone"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:286
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1546
-#: admin/partials/mmqw-add-new-rule-page.php:381
-#: admin/partials/mmqw-add-new-rule-page.php:1008
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1553
+#: admin/partials/mmqw-add-new-rule-page.php:376
+#: admin/partials/mmqw-add-new-rule-page.php:1003
 msgid "Length"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:287
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1549
-#: admin/partials/mmqw-add-new-rule-page.php:384
-#: admin/partials/mmqw-add-new-rule-page.php:1011
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1556
+#: admin/partials/mmqw-add-new-rule-page.php:379
+#: admin/partials/mmqw-add-new-rule-page.php:1006
 msgid "Width"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:288
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1552
-#: admin/partials/mmqw-add-new-rule-page.php:387
-#: admin/partials/mmqw-add-new-rule-page.php:1014
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1559
+#: admin/partials/mmqw-add-new-rule-page.php:382
+#: admin/partials/mmqw-add-new-rule-page.php:1009
 msgid "Height"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:289
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1555
-#: admin/partials/mmqw-add-new-rule-page.php:390
-#: admin/partials/mmqw-add-new-rule-page.php:1017
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1562
+#: admin/partials/mmqw-add-new-rule-page.php:385
+#: admin/partials/mmqw-add-new-rule-page.php:1012
 msgid "Weight"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:290
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1470
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1493
-#: admin/partials/mmqw-add-new-rule-page.php:298
-#: admin/partials/mmqw-add-new-rule-page.php:322
-#: admin/partials/mmqw-add-new-rule-page.php:925
-#: admin/partials/mmqw-add-new-rule-page.php:948
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1477
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1500
+#: admin/partials/mmqw-add-new-rule-page.php:293
+#: admin/partials/mmqw-add-new-rule-page.php:317
+#: admin/partials/mmqw-add-new-rule-page.php:920
+#: admin/partials/mmqw-add-new-rule-page.php:943
 msgid "Total Sales 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:291
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1473
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1496
-#: admin/partials/mmqw-add-new-rule-page.php:301
-#: admin/partials/mmqw-add-new-rule-page.php:325
-#: admin/partials/mmqw-add-new-rule-page.php:928
-#: admin/partials/mmqw-add-new-rule-page.php:951
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1480
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1503
+#: admin/partials/mmqw-add-new-rule-page.php:296
+#: admin/partials/mmqw-add-new-rule-page.php:320
+#: admin/partials/mmqw-add-new-rule-page.php:923
+#: admin/partials/mmqw-add-new-rule-page.php:946
 msgid "Stock Quantity 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:292
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1476
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1499
-#: admin/partials/mmqw-add-new-rule-page.php:304
-#: admin/partials/mmqw-add-new-rule-page.php:328
-#: admin/partials/mmqw-add-new-rule-page.php:931
-#: admin/partials/mmqw-add-new-rule-page.php:954
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1483
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1506
+#: admin/partials/mmqw-add-new-rule-page.php:299
+#: admin/partials/mmqw-add-new-rule-page.php:323
+#: admin/partials/mmqw-add-new-rule-page.php:926
+#: admin/partials/mmqw-add-new-rule-page.php:949
 msgid "Sale Price 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:293
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1479
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1502
-#: admin/partials/mmqw-add-new-rule-page.php:307
-#: admin/partials/mmqw-add-new-rule-page.php:331
-#: admin/partials/mmqw-add-new-rule-page.php:934
-#: admin/partials/mmqw-add-new-rule-page.php:957
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1486
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1509
+#: admin/partials/mmqw-add-new-rule-page.php:302
+#: admin/partials/mmqw-add-new-rule-page.php:326
+#: admin/partials/mmqw-add-new-rule-page.php:929
+#: admin/partials/mmqw-add-new-rule-page.php:952
 msgid "Regular Price 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:294
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1482
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1505
-#: admin/partials/mmqw-add-new-rule-page.php:310
-#: admin/partials/mmqw-add-new-rule-page.php:334
-#: admin/partials/mmqw-add-new-rule-page.php:937
-#: admin/partials/mmqw-add-new-rule-page.php:960
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1489
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1512
+#: admin/partials/mmqw-add-new-rule-page.php:305
+#: admin/partials/mmqw-add-new-rule-page.php:329
+#: admin/partials/mmqw-add-new-rule-page.php:932
+#: admin/partials/mmqw-add-new-rule-page.php:955
 msgid "Product Age 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:295
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1485
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1508
-#: admin/partials/mmqw-add-new-rule-page.php:313
-#: admin/partials/mmqw-add-new-rule-page.php:337
-#: admin/partials/mmqw-add-new-rule-page.php:940
-#: admin/partials/mmqw-add-new-rule-page.php:963
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1492
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1515
+#: admin/partials/mmqw-add-new-rule-page.php:308
+#: admin/partials/mmqw-add-new-rule-page.php:332
+#: admin/partials/mmqw-add-new-rule-page.php:935
+#: admin/partials/mmqw-add-new-rule-page.php:958
 msgid "Best Sellers 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:296
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1488
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1511
-#: admin/partials/mmqw-add-new-rule-page.php:316
-#: admin/partials/mmqw-add-new-rule-page.php:340
-#: admin/partials/mmqw-add-new-rule-page.php:943
-#: admin/partials/mmqw-add-new-rule-page.php:966
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1495
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1518
+#: admin/partials/mmqw-add-new-rule-page.php:311
+#: admin/partials/mmqw-add-new-rule-page.php:335
+#: admin/partials/mmqw-add-new-rule-page.php:938
+#: admin/partials/mmqw-add-new-rule-page.php:961
 msgid "Product Attributes 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:297
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1574
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1612
-#: admin/partials/mmqw-add-new-rule-page.php:412
-#: admin/partials/mmqw-add-new-rule-page.php:454
-#: admin/partials/mmqw-add-new-rule-page.php:1039
-#: admin/partials/mmqw-add-new-rule-page.php:1080
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1581
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1619
+#: admin/partials/mmqw-add-new-rule-page.php:407
+#: admin/partials/mmqw-add-new-rule-page.php:449
+#: admin/partials/mmqw-add-new-rule-page.php:1034
+#: admin/partials/mmqw-add-new-rule-page.php:1075
 msgid "Cart Coupon 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:298
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1580
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1618
-#: admin/partials/mmqw-add-new-rule-page.php:418
-#: admin/partials/mmqw-add-new-rule-page.php:460
-#: admin/partials/mmqw-add-new-rule-page.php:1045
-#: admin/partials/mmqw-add-new-rule-page.php:1086
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1587
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1625
+#: admin/partials/mmqw-add-new-rule-page.php:413
+#: admin/partials/mmqw-add-new-rule-page.php:455
+#: admin/partials/mmqw-add-new-rule-page.php:1040
+#: admin/partials/mmqw-add-new-rule-page.php:1081
 msgid "Shipping Method 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:299
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1577
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1615
-#: admin/partials/mmqw-add-new-rule-page.php:415
-#: admin/partials/mmqw-add-new-rule-page.php:457
-#: admin/partials/mmqw-add-new-rule-page.php:1042
-#: admin/partials/mmqw-add-new-rule-page.php:1083
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1584
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1622
+#: admin/partials/mmqw-add-new-rule-page.php:410
+#: admin/partials/mmqw-add-new-rule-page.php:452
+#: admin/partials/mmqw-add-new-rule-page.php:1037
+#: admin/partials/mmqw-add-new-rule-page.php:1078
 msgid "Shipping Zone 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:300
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1583
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1621
-#: admin/partials/mmqw-add-new-rule-page.php:421
-#: admin/partials/mmqw-add-new-rule-page.php:1048
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1590
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1628
+#: admin/partials/mmqw-add-new-rule-page.php:416
+#: admin/partials/mmqw-add-new-rule-page.php:1043
 msgid "Length 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:301
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1586
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1624
-#: admin/partials/mmqw-add-new-rule-page.php:424
-#: admin/partials/mmqw-add-new-rule-page.php:1051
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1593
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1631
+#: admin/partials/mmqw-add-new-rule-page.php:419
+#: admin/partials/mmqw-add-new-rule-page.php:1046
 msgid "Width 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:302
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1589
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1627
-#: admin/partials/mmqw-add-new-rule-page.php:427
-#: admin/partials/mmqw-add-new-rule-page.php:1054
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1596
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1634
+#: admin/partials/mmqw-add-new-rule-page.php:422
+#: admin/partials/mmqw-add-new-rule-page.php:1049
 msgid "Height 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:303
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1592
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1630
-#: admin/partials/mmqw-add-new-rule-page.php:430
-#: admin/partials/mmqw-add-new-rule-page.php:1057
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1599
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1637
+#: admin/partials/mmqw-add-new-rule-page.php:425
+#: admin/partials/mmqw-add-new-rule-page.php:1052
 msgid "Weight 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:304
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1639
-#: admin/partials/mmqw-add-new-rule-page.php:473
-#: admin/partials/mmqw-add-new-rule-page.php:1099
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1646
+#: admin/partials/mmqw-add-new-rule-page.php:468
+#: admin/partials/mmqw-add-new-rule-page.php:1094
 msgid "Equal to ( = )"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:305
-#: admin/partials/mmqw-add-new-rule-page.php:493
+#: admin/partials/mmqw-add-new-rule-page.php:488
 msgid "Greater than ( > )"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:306
-#: admin/partials/mmqw-add-new-rule-page.php:490
+#: admin/partials/mmqw-add-new-rule-page.php:485
 msgid "Less than ( < )"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:307
-#: admin/partials/mmqw-add-new-rule-page.php:487
+#: admin/partials/mmqw-add-new-rule-page.php:482
 msgid "Greater or Equal to ( >= )"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:308
-#: admin/partials/mmqw-add-new-rule-page.php:484
+#: admin/partials/mmqw-add-new-rule-page.php:479
 msgid "Less or Equal to ( <= )"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:309
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1642
-#: admin/partials/mmqw-add-new-rule-page.php:476
-#: admin/partials/mmqw-add-new-rule-page.php:1102
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1649
+#: admin/partials/mmqw-add-new-rule-page.php:471
+#: admin/partials/mmqw-add-new-rule-page.php:1097
 msgid "Not Equal to ( != )"
 msgstr ""
 
@@ -393,79 +393,79 @@ msgid "Default quantity should less or equal to max quantity"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:312
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1522
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1559
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1597
-#: admin/partials/mmqw-add-new-rule-page.php:355
-#: admin/partials/mmqw-add-new-rule-page.php:395
-#: admin/partials/mmqw-add-new-rule-page.php:437
-#: admin/partials/mmqw-add-new-rule-page.php:982
-#: admin/partials/mmqw-add-new-rule-page.php:1022
-#: admin/partials/mmqw-add-new-rule-page.php:1063
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1529
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1566
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1604
+#: admin/partials/mmqw-add-new-rule-page.php:350
+#: admin/partials/mmqw-add-new-rule-page.php:390
+#: admin/partials/mmqw-add-new-rule-page.php:432
+#: admin/partials/mmqw-add-new-rule-page.php:977
+#: admin/partials/mmqw-add-new-rule-page.php:1017
+#: admin/partials/mmqw-add-new-rule-page.php:1058
 msgid "User Specific"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:313
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1527
-#: admin/partials/mmqw-add-new-rule-page.php:360
-#: admin/partials/mmqw-add-new-rule-page.php:987
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1534
+#: admin/partials/mmqw-add-new-rule-page.php:355
+#: admin/partials/mmqw-add-new-rule-page.php:982
 msgid "User"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:314
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1524
-#: admin/partials/mmqw-add-new-rule-page.php:357
-#: admin/partials/mmqw-add-new-rule-page.php:984
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1531
+#: admin/partials/mmqw-add-new-rule-page.php:352
+#: admin/partials/mmqw-add-new-rule-page.php:979
 msgid "User Role"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:315
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1564
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1602
-#: admin/partials/mmqw-add-new-rule-page.php:400
-#: admin/partials/mmqw-add-new-rule-page.php:442
-#: admin/partials/mmqw-add-new-rule-page.php:1027
-#: admin/partials/mmqw-add-new-rule-page.php:1068
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1571
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1609
+#: admin/partials/mmqw-add-new-rule-page.php:395
+#: admin/partials/mmqw-add-new-rule-page.php:437
+#: admin/partials/mmqw-add-new-rule-page.php:1022
+#: admin/partials/mmqw-add-new-rule-page.php:1063
 msgid "User 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:316
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1561
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1599
-#: admin/partials/mmqw-add-new-rule-page.php:397
-#: admin/partials/mmqw-add-new-rule-page.php:439
-#: admin/partials/mmqw-add-new-rule-page.php:1024
-#: admin/partials/mmqw-add-new-rule-page.php:1065
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1568
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1606
+#: admin/partials/mmqw-add-new-rule-page.php:392
+#: admin/partials/mmqw-add-new-rule-page.php:434
+#: admin/partials/mmqw-add-new-rule-page.php:1019
+#: admin/partials/mmqw-add-new-rule-page.php:1060
 msgid "User Role 🔒"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:317
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1530
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1567
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1605
-#: admin/partials/mmqw-add-new-rule-page.php:364
-#: admin/partials/mmqw-add-new-rule-page.php:404
-#: admin/partials/mmqw-add-new-rule-page.php:446
-#: admin/partials/mmqw-add-new-rule-page.php:991
-#: admin/partials/mmqw-add-new-rule-page.php:1031
-#: admin/partials/mmqw-add-new-rule-page.php:1072
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1537
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1574
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1612
+#: admin/partials/mmqw-add-new-rule-page.php:359
+#: admin/partials/mmqw-add-new-rule-page.php:399
+#: admin/partials/mmqw-add-new-rule-page.php:441
+#: admin/partials/mmqw-add-new-rule-page.php:986
+#: admin/partials/mmqw-add-new-rule-page.php:1026
+#: admin/partials/mmqw-add-new-rule-page.php:1067
 msgid "Limit Section"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:318
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1532
-#: admin/partials/mmqw-add-new-rule-page.php:366
-#: admin/partials/mmqw-add-new-rule-page.php:993
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1539
+#: admin/partials/mmqw-add-new-rule-page.php:361
+#: admin/partials/mmqw-add-new-rule-page.php:988
 msgid "Time Frame"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:319
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1569
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1607
-#: admin/partials/mmqw-add-new-rule-page.php:406
-#: admin/partials/mmqw-add-new-rule-page.php:448
-#: admin/partials/mmqw-add-new-rule-page.php:1033
-#: admin/partials/mmqw-add-new-rule-page.php:1074
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1576
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1614
+#: admin/partials/mmqw-add-new-rule-page.php:401
+#: admin/partials/mmqw-add-new-rule-page.php:443
+#: admin/partials/mmqw-add-new-rule-page.php:1028
+#: admin/partials/mmqw-add-new-rule-page.php:1069
 msgid "Time Frame 🔒"
 msgstr ""
 
@@ -494,270 +494,270 @@ msgstr ""
 msgid "Min/Max Quantity Rules"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1014
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1021
 msgid "Error saving Min/Max Quantity rule."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1061
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1068
 msgid ""
 "<strong>We need your support</strong> to keep updating and improving the "
 "plugin. Please <a href=\"%1$s\" target=\"_blank\">help us by leaving a good "
 "review</a> :) Thanks!"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1100
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1126
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1107
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1133
 msgid "Something went wrong"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1124
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1131
 msgid "Rule status changed successfully."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1285
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1292
 msgid "Min/max rule has been created."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1287
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1294
 msgid "Min/max rule has been updated."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1289
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1296
 msgid "Min/max rule has been deleted."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1291
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1298
 msgid "Min/max rule has been duplicated."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1293
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1300
 msgid "Min/max rule has been disabled."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1295
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1302
 msgid "Min/max rule has been enabled."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1298
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1305
 msgid "There was an error with saving data."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1300
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1307
 msgid "There was an error with security check."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1350
-#: admin/partials/mmqw-add-new-rule-page.php:147
-#: admin/partials/mmqw-add-new-rule-page.php:783
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1357
+#: admin/partials/mmqw-add-new-rule-page.php:142
+#: admin/partials/mmqw-add-new-rule-page.php:778
 msgid ""
 "You can turn off this button, if you do not need to apply this group's min "
 "max rules."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1360
-#: admin/partials/mmqw-add-new-rule-page.php:157
-#: admin/partials/mmqw-add-new-rule-page.php:793
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1367
+#: admin/partials/mmqw-add-new-rule-page.php:152
+#: admin/partials/mmqw-add-new-rule-page.php:788
 msgid "Conditions"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1363
-#: admin/partials/mmqw-add-new-rule-page.php:161
-#: admin/partials/mmqw-add-new-rule-page.php:797
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1370
+#: admin/partials/mmqw-add-new-rule-page.php:156
+#: admin/partials/mmqw-add-new-rule-page.php:792
 msgid "+ Add Rule"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1370
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1389
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1410
-#: admin/partials/mmqw-add-new-rule-page.php:169
-#: admin/partials/mmqw-add-new-rule-page.php:189
-#: admin/partials/mmqw-add-new-rule-page.php:211
-#: admin/partials/mmqw-add-new-rule-page.php:805
-#: admin/partials/mmqw-add-new-rule-page.php:826
-#: admin/partials/mmqw-add-new-rule-page.php:850
-msgid "below"
-msgstr ""
-
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1374
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1393
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1414
-#: admin/partials/mmqw-add-new-rule-page.php:175
-#: admin/partials/mmqw-add-new-rule-page.php:195
-#: admin/partials/mmqw-add-new-rule-page.php:217
-#: admin/partials/mmqw-add-new-rule-page.php:811
-#: admin/partials/mmqw-add-new-rule-page.php:832
-#: admin/partials/mmqw-add-new-rule-page.php:856
-msgid "Any"
-msgstr ""
-
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:1377
-#: admin/partials/mmqw-add-new-rule-page.php:178
-#: admin/partials/mmqw-add-new-rule-page.php:814
-msgid "All"
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1396
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1417
+#: admin/partials/mmqw-add-new-rule-page.php:164
+#: admin/partials/mmqw-add-new-rule-page.php:184
+#: admin/partials/mmqw-add-new-rule-page.php:206
+#: admin/partials/mmqw-add-new-rule-page.php:800
+#: admin/partials/mmqw-add-new-rule-page.php:821
+#: admin/partials/mmqw-add-new-rule-page.php:845
+msgid "below"
 msgstr ""
 
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:1381
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:1400
 #: admin/class-min-max-quantity-for-woocommerce-admin.php:1421
-#: admin/partials/mmqw-add-new-rule-page.php:182
-#: admin/partials/mmqw-add-new-rule-page.php:202
-#: admin/partials/mmqw-add-new-rule-page.php:224
-#: admin/partials/mmqw-add-new-rule-page.php:818
-#: admin/partials/mmqw-add-new-rule-page.php:839
-#: admin/partials/mmqw-add-new-rule-page.php:863
+#: admin/partials/mmqw-add-new-rule-page.php:170
+#: admin/partials/mmqw-add-new-rule-page.php:190
+#: admin/partials/mmqw-add-new-rule-page.php:212
+#: admin/partials/mmqw-add-new-rule-page.php:806
+#: admin/partials/mmqw-add-new-rule-page.php:827
+#: admin/partials/mmqw-add-new-rule-page.php:851
+msgid "Any"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1384
+#: admin/partials/mmqw-add-new-rule-page.php:173
+#: admin/partials/mmqw-add-new-rule-page.php:809
+msgid "All"
+msgstr ""
+
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1388
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1407
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1428
+#: admin/partials/mmqw-add-new-rule-page.php:177
+#: admin/partials/mmqw-add-new-rule-page.php:197
+#: admin/partials/mmqw-add-new-rule-page.php:219
+#: admin/partials/mmqw-add-new-rule-page.php:813
+#: admin/partials/mmqw-add-new-rule-page.php:834
+#: admin/partials/mmqw-add-new-rule-page.php:858
 msgid "rule match"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1396
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1417
-#: admin/partials/mmqw-add-new-rule-page.php:198
-#: admin/partials/mmqw-add-new-rule-page.php:220
-#: admin/partials/mmqw-add-new-rule-page.php:835
-#: admin/partials/mmqw-add-new-rule-page.php:859
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1403
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1424
+#: admin/partials/mmqw-add-new-rule-page.php:193
+#: admin/partials/mmqw-add-new-rule-page.php:215
+#: admin/partials/mmqw-add-new-rule-page.php:830
+#: admin/partials/mmqw-add-new-rule-page.php:854
 msgid "All 🔒"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1665
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1672
 msgid "Actions"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1674
-#: admin/partials/mmqw-add-new-rule-page.php:600
-#: admin/partials/mmqw-add-new-rule-page.php:1146
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1681
+#: admin/partials/mmqw-add-new-rule-page.php:595
+#: admin/partials/mmqw-add-new-rule-page.php:1141
 msgid "Min Quantity"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1678
-#: admin/partials/mmqw-add-new-rule-page.php:607
-#: admin/partials/mmqw-add-new-rule-page.php:1152
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1685
+#: admin/partials/mmqw-add-new-rule-page.php:602
+#: admin/partials/mmqw-add-new-rule-page.php:1147
 msgid ""
 "You can set a minimum product quantity to apply on product detail page and "
 "cart page."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1682
-#: admin/partials/mmqw-add-new-rule-page.php:611
-#: admin/partials/mmqw-add-new-rule-page.php:1156
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1689
+#: admin/partials/mmqw-add-new-rule-page.php:606
+#: admin/partials/mmqw-add-new-rule-page.php:1151
 msgid "Max Quantity"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1686
-#: admin/partials/mmqw-add-new-rule-page.php:618
-#: admin/partials/mmqw-add-new-rule-page.php:1162
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1693
+#: admin/partials/mmqw-add-new-rule-page.php:613
+#: admin/partials/mmqw-add-new-rule-page.php:1157
 msgid ""
 "You can set a maximum product quantity to apply on product detail page and "
 "cart page."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1693
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1727
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1765
-#: admin/partials/mmqw-add-new-rule-page.php:624
-#: admin/partials/mmqw-add-new-rule-page.php:668
-#: admin/partials/mmqw-add-new-rule-page.php:714
-#: admin/partials/mmqw-add-new-rule-page.php:1168
-#: admin/partials/mmqw-add-new-rule-page.php:1207
-#: admin/partials/mmqw-add-new-rule-page.php:1250
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1700
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1734
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1772
+#: admin/partials/mmqw-add-new-rule-page.php:619
+#: admin/partials/mmqw-add-new-rule-page.php:663
+#: admin/partials/mmqw-add-new-rule-page.php:709
+#: admin/partials/mmqw-add-new-rule-page.php:1163
+#: admin/partials/mmqw-add-new-rule-page.php:1202
+#: admin/partials/mmqw-add-new-rule-page.php:1245
 msgid "Step Quantity"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1697
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1732
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1770
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1704
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1739
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1777
 msgid "You can set a step quantity to apply on product detail page and cart page."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1701
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1736
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1774
-#: admin/partials/mmqw-add-new-rule-page.php:635
-#: admin/partials/mmqw-add-new-rule-page.php:679
-#: admin/partials/mmqw-add-new-rule-page.php:725
-#: admin/partials/mmqw-add-new-rule-page.php:1178
-#: admin/partials/mmqw-add-new-rule-page.php:1218
-#: admin/partials/mmqw-add-new-rule-page.php:1261
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1708
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1743
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1781
+#: admin/partials/mmqw-add-new-rule-page.php:630
+#: admin/partials/mmqw-add-new-rule-page.php:674
+#: admin/partials/mmqw-add-new-rule-page.php:720
+#: admin/partials/mmqw-add-new-rule-page.php:1173
+#: admin/partials/mmqw-add-new-rule-page.php:1213
+#: admin/partials/mmqw-add-new-rule-page.php:1256
 msgid "Default Quantity"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1705
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1741
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1779
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1712
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1748
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1786
 msgid ""
 "You can set a default quantity to apply on product detail page and cart "
 "page."
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1709
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1745
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1783
-#: admin/partials/mmqw-add-new-rule-page.php:649
-#: admin/partials/mmqw-add-new-rule-page.php:692
-#: admin/partials/mmqw-add-new-rule-page.php:738
-#: admin/partials/mmqw-add-new-rule-page.php:1188
-#: admin/partials/mmqw-add-new-rule-page.php:1229
-#: admin/partials/mmqw-add-new-rule-page.php:1272
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1716
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1752
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1790
+#: admin/partials/mmqw-add-new-rule-page.php:644
+#: admin/partials/mmqw-add-new-rule-page.php:687
+#: admin/partials/mmqw-add-new-rule-page.php:733
+#: admin/partials/mmqw-add-new-rule-page.php:1183
+#: admin/partials/mmqw-add-new-rule-page.php:1224
+#: admin/partials/mmqw-add-new-rule-page.php:1267
 msgid "Quantity Selector"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1713
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1750
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1788
-#: admin/partials/mmqw-add-new-rule-page.php:654
-#: admin/partials/mmqw-add-new-rule-page.php:698
-#: admin/partials/mmqw-add-new-rule-page.php:744
-#: admin/partials/mmqw-add-new-rule-page.php:1193
-#: admin/partials/mmqw-add-new-rule-page.php:1235
-#: admin/partials/mmqw-add-new-rule-page.php:1278
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1720
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1757
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1795
+#: admin/partials/mmqw-add-new-rule-page.php:649
+#: admin/partials/mmqw-add-new-rule-page.php:693
+#: admin/partials/mmqw-add-new-rule-page.php:739
+#: admin/partials/mmqw-add-new-rule-page.php:1188
+#: admin/partials/mmqw-add-new-rule-page.php:1230
+#: admin/partials/mmqw-add-new-rule-page.php:1273
 msgid "Default Input"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1716
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1753
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1791
-#: admin/partials/mmqw-add-new-rule-page.php:657
-#: admin/partials/mmqw-add-new-rule-page.php:701
-#: admin/partials/mmqw-add-new-rule-page.php:747
-#: admin/partials/mmqw-add-new-rule-page.php:1196
-#: admin/partials/mmqw-add-new-rule-page.php:1238
-#: admin/partials/mmqw-add-new-rule-page.php:1281
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1723
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1760
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1798
+#: admin/partials/mmqw-add-new-rule-page.php:652
+#: admin/partials/mmqw-add-new-rule-page.php:696
+#: admin/partials/mmqw-add-new-rule-page.php:742
+#: admin/partials/mmqw-add-new-rule-page.php:1191
+#: admin/partials/mmqw-add-new-rule-page.php:1233
+#: admin/partials/mmqw-add-new-rule-page.php:1276
 msgid "Select Dropdown"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1719
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1756
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:1794
-#: admin/partials/mmqw-add-new-rule-page.php:660
-#: admin/partials/mmqw-add-new-rule-page.php:704
-#: admin/partials/mmqw-add-new-rule-page.php:750
-#: admin/partials/mmqw-add-new-rule-page.php:1199
-#: admin/partials/mmqw-add-new-rule-page.php:1241
-#: admin/partials/mmqw-add-new-rule-page.php:1284
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1726
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1763
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:1801
+#: admin/partials/mmqw-add-new-rule-page.php:655
+#: admin/partials/mmqw-add-new-rule-page.php:699
+#: admin/partials/mmqw-add-new-rule-page.php:745
+#: admin/partials/mmqw-add-new-rule-page.php:1194
+#: admin/partials/mmqw-add-new-rule-page.php:1236
+#: admin/partials/mmqw-add-new-rule-page.php:1279
 msgid "Radio Button"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:2589
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:2596
 msgid "Type length"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:2619
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:2626
 msgid "Type width"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:2649
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:2656
 msgid "Type height"
 msgstr ""
 
-#: admin/class-min-max-quantity-for-woocommerce-admin.php:2679
+#: admin/class-min-max-quantity-for-woocommerce-admin.php:2686
 msgid "Type weight"
 msgstr ""
 
 #: admin/list-tables/class-min-max-rule-list-table.php:35
-#: admin/partials/mmqw-add-new-rule-page.php:88
+#: admin/partials/mmqw-add-new-rule-page.php:83
 msgid "Min/Max Rule Title"
 msgstr ""
 
 #: admin/list-tables/class-min-max-rule-list-table.php:36
-#: admin/partials/mmqw-add-new-rule-page.php:75
+#: admin/partials/mmqw-add-new-rule-page.php:70
 msgid "Status"
 msgstr ""
 
@@ -1440,7 +1440,7 @@ msgstr ""
 msgid "Display Rules"
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:58
+#: admin/partials/mmqw-add-new-rule-page.php:53
 #: admin/partials/mmqw-checkout-settings-page.php:42
 #: admin/partials/mmqw-display-rules.php:13
 #: admin/partials/mmqw-display-rules__premium_only.php:37
@@ -1448,54 +1448,54 @@ msgstr ""
 msgid "Save changes"
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:65
+#: admin/partials/mmqw-add-new-rule-page.php:60
 msgid "Configuration"
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:76
+#: admin/partials/mmqw-add-new-rule-page.php:71
 msgid ""
 "Enable or Disable this Min Max rule using this button (This rule only apply "
 "if it is enabled)."
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:91
+#: admin/partials/mmqw-add-new-rule-page.php:86
 msgid "This name will use only for admin purpose."
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:97
+#: admin/partials/mmqw-add-new-rule-page.php:92
 msgid "Rule title"
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:105
+#: admin/partials/mmqw-add-new-rule-page.php:100
 msgid "Advanced Rules"
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:589
-#: admin/partials/mmqw-add-new-rule-page.php:1135
+#: admin/partials/mmqw-add-new-rule-page.php:584
+#: admin/partials/mmqw-add-new-rule-page.php:1130
 msgid "Action"
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:631
-#: admin/partials/mmqw-add-new-rule-page.php:675
-#: admin/partials/mmqw-add-new-rule-page.php:721
-#: admin/partials/mmqw-add-new-rule-page.php:1174
-#: admin/partials/mmqw-add-new-rule-page.php:1214
-#: admin/partials/mmqw-add-new-rule-page.php:1257
+#: admin/partials/mmqw-add-new-rule-page.php:626
+#: admin/partials/mmqw-add-new-rule-page.php:670
+#: admin/partials/mmqw-add-new-rule-page.php:716
+#: admin/partials/mmqw-add-new-rule-page.php:1169
+#: admin/partials/mmqw-add-new-rule-page.php:1209
+#: admin/partials/mmqw-add-new-rule-page.php:1252
 msgid ""
 "You can set a step product quantity to apply on product detail page and "
 "cart page."
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:645
-#: admin/partials/mmqw-add-new-rule-page.php:688
-#: admin/partials/mmqw-add-new-rule-page.php:734
-#: admin/partials/mmqw-add-new-rule-page.php:1184
-#: admin/partials/mmqw-add-new-rule-page.php:1225
-#: admin/partials/mmqw-add-new-rule-page.php:1268
+#: admin/partials/mmqw-add-new-rule-page.php:640
+#: admin/partials/mmqw-add-new-rule-page.php:683
+#: admin/partials/mmqw-add-new-rule-page.php:729
+#: admin/partials/mmqw-add-new-rule-page.php:1179
+#: admin/partials/mmqw-add-new-rule-page.php:1220
+#: admin/partials/mmqw-add-new-rule-page.php:1263
 msgid "You can set a default product quantity to apply on product detail page."
 msgstr ""
 
-#: admin/partials/mmqw-add-new-rule-page.php:1306
+#: admin/partials/mmqw-add-new-rule-page.php:1301
 msgid "+ Add Group"
 msgstr ""
 
@@ -1793,8 +1793,8 @@ msgid "Add the minimum allows order quantity message for the cart page."
 msgstr ""
 
 #: admin/partials/mmqw-manage-message-page.php:95
-#: public/class-mmqw-for-woocommerce-public.php:839
-#: public/class-mmqw-for-woocommerce-public.php:1515
+#: public/class-mmqw-for-woocommerce-public.php:829
+#: public/class-mmqw-for-woocommerce-public.php:1500
 msgid ""
 "The minimum allows order quantity is {MIN_ORDER_QTY} and you have "
 "{ORDER_QTY} in your cart."
@@ -1809,8 +1809,8 @@ msgid "Add the maximum allows order quantity message for the cart page."
 msgstr ""
 
 #: admin/partials/mmqw-manage-message-page.php:108
-#: public/class-mmqw-for-woocommerce-public.php:840
-#: public/class-mmqw-for-woocommerce-public.php:1516
+#: public/class-mmqw-for-woocommerce-public.php:830
+#: public/class-mmqw-for-woocommerce-public.php:1501
 msgid ""
 "The maximum allows order quantity is {MAX_ORDER_QTY} and you have "
 "{ORDER_QTY} in your cart."
@@ -1829,7 +1829,7 @@ msgid "Add the minimum order value message for the cart page."
 msgstr ""
 
 #: admin/partials/mmqw-manage-message-page.php:128
-#: public/class-mmqw-for-woocommerce-public.php:842
+#: public/class-mmqw-for-woocommerce-public.php:832
 msgid ""
 "The minimum cart value required is {MIN_CART_VALUE} and you have "
 "{CART_VALUE} in your cart."
@@ -1844,7 +1844,7 @@ msgid "Add the maximum order value message for the cart page."
 msgstr ""
 
 #: admin/partials/mmqw-manage-message-page.php:141
-#: public/class-mmqw-for-woocommerce-public.php:843
+#: public/class-mmqw-for-woocommerce-public.php:833
 msgid ""
 "The maximum cart value required is {MAX_CART_VALUE} and you have "
 "{CART_VALUE} in your cart."
@@ -1863,7 +1863,7 @@ msgid "Add the minimum order item message for the cart page."
 msgstr ""
 
 #: admin/partials/mmqw-manage-message-page.php:161
-#: public/class-mmqw-for-woocommerce-public.php:845
+#: public/class-mmqw-for-woocommerce-public.php:835
 msgid ""
 "The minimum order item required is {MIN_ORDER_ITEM} for each product in "
 "your cart."
@@ -1878,7 +1878,7 @@ msgid "Add the maximum order item message for the cart page."
 msgstr ""
 
 #: admin/partials/mmqw-manage-message-page.php:174
-#: public/class-mmqw-for-woocommerce-public.php:846
+#: public/class-mmqw-for-woocommerce-public.php:836
 msgid ""
 "The maximum order item should be {MAX_ORDER_ITEM} for each product in your "
 "cart."
@@ -1910,101 +1910,101 @@ msgstr ""
 msgid "Quantity: "
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:1498
+#: public/class-mmqw-for-woocommerce-public.php:1483
 msgid "Sorry! you reached maximum limit for this product!"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2511
-#: public/class-mmqw-for-woocommerce-public.php:2521
-#: public/class-mmqw-for-woocommerce-public.php:2871
-#: public/class-mmqw-for-woocommerce-public.php:2885
+#: public/class-mmqw-for-woocommerce-public.php:2487
+#: public/class-mmqw-for-woocommerce-public.php:2497
+#: public/class-mmqw-for-woocommerce-public.php:2843
+#: public/class-mmqw-for-woocommerce-public.php:2857
 msgid "Minimum quantity required: "
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2512
-#: public/class-mmqw-for-woocommerce-public.php:2522
-#: public/class-mmqw-for-woocommerce-public.php:2872
-#: public/class-mmqw-for-woocommerce-public.php:2886
+#: public/class-mmqw-for-woocommerce-public.php:2488
+#: public/class-mmqw-for-woocommerce-public.php:2498
+#: public/class-mmqw-for-woocommerce-public.php:2844
+#: public/class-mmqw-for-woocommerce-public.php:2858
 msgid "Maximum quantity allowed: "
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2513
-#: public/class-mmqw-for-woocommerce-public.php:2523
-#: public/class-mmqw-for-woocommerce-public.php:2873
-#: public/class-mmqw-for-woocommerce-public.php:2887
+#: public/class-mmqw-for-woocommerce-public.php:2489
+#: public/class-mmqw-for-woocommerce-public.php:2499
+#: public/class-mmqw-for-woocommerce-public.php:2845
+#: public/class-mmqw-for-woocommerce-public.php:2859
 msgid "Step quantity: "
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2547
+#: public/class-mmqw-for-woocommerce-public.php:2523
 #. translators: 1: minimum quantity, 2: maximum quantity, 3: step quantity
 msgid ""
 "This product required minimum of %1$s and maximum of %2$s quantity to "
 "purchase with step quantity of %3$s!"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2558
+#: public/class-mmqw-for-woocommerce-public.php:2534
 #. translators: %s: minimum quantity
 msgid "minimum of %s"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2565
+#: public/class-mmqw-for-woocommerce-public.php:2541
 #. translators: %s: maximum quantity
 msgid "maximum of %s"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2572
+#: public/class-mmqw-for-woocommerce-public.php:2548
 #. translators: %s: step quantity
 msgid "step quantity of %s"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2580
+#: public/class-mmqw-for-woocommerce-public.php:2556
 #. translators: %s: formatted quantity requirements
 msgid "This product required %s to purchase!"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2726
+#: public/class-mmqw-for-woocommerce-public.php:2702
 msgid "Here are the rules added for checkout"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2729
+#: public/class-mmqw-for-woocommerce-public.php:2705
 msgid "Rules"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2730
+#: public/class-mmqw-for-woocommerce-public.php:2706
 msgid "Minimum"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2731
+#: public/class-mmqw-for-woocommerce-public.php:2707
 msgid "Maximum"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2734
+#: public/class-mmqw-for-woocommerce-public.php:2710
 msgid "Order Quantity"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2738
-#: public/class-mmqw-for-woocommerce-public.php:2743
-#: public/class-mmqw-for-woocommerce-public.php:2752
-#: public/class-mmqw-for-woocommerce-public.php:2758
-#: public/class-mmqw-for-woocommerce-public.php:2766
-#: public/class-mmqw-for-woocommerce-public.php:2771
-#: public/class-mmqw-for-woocommerce-public.php:2780
+#: public/class-mmqw-for-woocommerce-public.php:2714
+#: public/class-mmqw-for-woocommerce-public.php:2719
+#: public/class-mmqw-for-woocommerce-public.php:2728
+#: public/class-mmqw-for-woocommerce-public.php:2734
+#: public/class-mmqw-for-woocommerce-public.php:2742
+#: public/class-mmqw-for-woocommerce-public.php:2747
+#: public/class-mmqw-for-woocommerce-public.php:2756
 msgid "Not specified"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2747
+#: public/class-mmqw-for-woocommerce-public.php:2723
 msgid "Order Value"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2762
+#: public/class-mmqw-for-woocommerce-public.php:2738
 msgid "Items Quantity"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:2775
+#: public/class-mmqw-for-woocommerce-public.php:2751
 msgid "Excluded Products"
 msgstr ""
 
-#: public/class-mmqw-for-woocommerce-public.php:3297
+#: public/class-mmqw-for-woocommerce-public.php:3269
 msgid "Quantity input type (text, select, or radio)."
 msgstr ""
 
@@ -2016,7 +2016,7 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: public/class-mmqw-for-woocommerce-public.php:3012
+#: public/class-mmqw-for-woocommerce-public.php:2984
 msgctxt "Product quantity input tooltip"
 msgid "Qty"
 msgstr ""
